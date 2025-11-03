@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "state-rep-map-builder"
+version = "0.1.0"
+description = "Pipeline to generate per-state vector tiles and MBTiles for U.S. state legislative districts"
+authors = ["Connor Jones <cmj147@georgetown.edu>"]
+packages = [{ include = "state_rep_map_builder" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4"
+geopandas = ">=0.14.0"
+shapely = ">=2.0.1"
+pyproj = ">=3.6.0"
+fiona = ">=1.9.5"
+pandas = ">=2.1.0"
+tqdm = ">=4.66.1"
+mbutil = { git = "https://github.com/mapbox/mbutil.git" }
+click = ">=8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+ruff = "*"
+pytest = "*"
+ipython = "*"
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
