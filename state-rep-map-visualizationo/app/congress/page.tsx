@@ -218,7 +218,7 @@ export default function CongressPage() {
   return <main className="atlas-shell congress-shell">
     <header className="atlas-header">
       <div className="brand-lockup"><span className="brand-mark" aria-hidden="true"><span /></span><div><p className="eyebrow">A civic district atlas</p><h1>Statehouse Atlas</h1></div></div>
-      <nav className="scope-nav" aria-label="Choose map scope"><Link href="/">State legislatures</Link><Link href="/congress" aria-current="page">U.S. Congress</Link></nav>
+      <nav className="scope-nav" aria-label="Choose map scope"><Link href="/">State legislatures</Link><Link href="/congress" aria-current="page">U.S. Congress</Link><Link href="/executives">U.S. Executives</Link></nav>
       <div className="header-context"><span>50 states</span><i />119th Congress</div>
     </header>
     <div className="atlas-body">

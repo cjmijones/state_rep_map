@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Statehouse Atlas
 
-## Getting Started
+An interactive map of U.S. state legislative districts, Congress, and executive offices. The first release covers the 50 states.
 
-First, run the development server:
+## Local preview
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`. From an SSH client, forward the port with `ssh -L 3000:localhost:3000 user@host` and open the same URL locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The map has three views: State legislatures (`/`), U.S. Congress (`/congress`), and U.S. Executives (`/executives`). The executives view reuses the state boundary archive, shows each current governor, and places a president seal in the Atlantic east of the DC region. The sidebar president button remains accessible when the seal is outside the current viewport.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Executive officeholder data
 
-## Learn More
+`public/data/executives.json` is a checked-in snapshot. Refresh it with:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+python scripts/refresh-executives.py
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The script uses Python's standard library. It reads the [National Governors Association's current roster](https://www.nga.org/governors/) and each governor's NGA profile for names and party affiliation, [USAGov's governor directory](https://www.usa.gov/state-governor) for official state site links, and the [White House administration page](https://www.whitehouse.gov/administration/) for the president. It validates exactly 50 states and writes the snapshot atomically. Refresh and review the data before deploying when officeholders may have changed. The site shows the snapshot timestamp; it does not claim a live roster.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Checks
 
-## Deploy on Vercel
+```bash
+npm run lint
+npx tsc --noEmit
+npm run build -- --webpack
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The Render Blueprint in the repository root builds and serves this Next.js app. `/api/health` checks that required snapshots and map archives exist.

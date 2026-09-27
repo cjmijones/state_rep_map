@@ -4,6 +4,7 @@ import path from "node:path";
 const requiredFiles = [
   "data/manifest.json",
   "data/federal.json",
+  "data/executives.json",
   "data/wa-house-2024.json",
   "archives/upper.pmtiles",
   "archives/lower.pmtiles",

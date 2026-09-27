@@ -1,0 +1,465 @@
+{
+  "generatedAt": "2026-09-27T18:38:44.038843+00:00",
+  "sources": {
+    "governors": "https://www.nga.org/governors/",
+    "officialSites": "https://www.usa.gov/state-governor",
+    "president": "https://www.whitehouse.gov/administration/"
+  },
+  "governors": [
+    {
+      "state": "AL",
+      "stateName": "Alabama",
+      "fips": "01",
+      "name": "Kay Ivey",
+      "ngaUrl": "https://www.nga.org/governors/alabama/",
+      "officialUrl": "https://governor.alabama.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "AK",
+      "stateName": "Alaska",
+      "fips": "02",
+      "name": "Mike Dunleavy",
+      "ngaUrl": "https://www.nga.org/governors/alaska/",
+      "officialUrl": "https://gov.alaska.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "AZ",
+      "stateName": "Arizona",
+      "fips": "04",
+      "name": "Katie Hobbs",
+      "ngaUrl": "https://www.nga.org/governors/arizona/",
+      "officialUrl": "https://azgovernor.gov/governor/meet-governor-katie-hobbs",
+      "party": "Democrat"
+    },
+    {
+      "state": "AR",
+      "stateName": "Arkansas",
+      "fips": "05",
+      "name": "Sarah Huckabee Sanders",
+      "ngaUrl": "https://www.nga.org/governors/arkansas/",
+      "officialUrl": "https://governor.arkansas.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "CA",
+      "stateName": "California",
+      "fips": "06",
+      "name": "Gavin Newsom",
+      "ngaUrl": "https://www.nga.org/governors/california/",
+      "officialUrl": "https://www.gov.ca.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "CO",
+      "stateName": "Colorado",
+      "fips": "08",
+      "name": "Jared Polis",
+      "ngaUrl": "https://www.nga.org/governors/colorado/",
+      "officialUrl": "https://www.colorado.gov/governor/",
+      "party": "Democrat"
+    },
+    {
+      "state": "CT",
+      "stateName": "Connecticut",
+      "fips": "09",
+      "name": "Ned Lamont",
+      "ngaUrl": "https://www.nga.org/governors/connecticut/",
+      "officialUrl": "https://portal.ct.gov/governor",
+      "party": "Democrat"
+    },
+    {
+      "state": "DE",
+      "stateName": "Delaware",
+      "fips": "10",
+      "name": "Matt Meyer",
+      "ngaUrl": "https://www.nga.org/governors/delaware/",
+      "officialUrl": "https://governor.delaware.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "FL",
+      "stateName": "Florida",
+      "fips": "12",
+      "name": "Ron DeSantis",
+      "ngaUrl": "https://www.nga.org/governors/florida/",
+      "officialUrl": "https://www.flgov.com/",
+      "party": "Republican"
+    },
+    {
+      "state": "GA",
+      "stateName": "Georgia",
+      "fips": "13",
+      "name": "Brian Kemp",
+      "ngaUrl": "https://www.nga.org/governors/georgia/",
+      "officialUrl": "https://gov.georgia.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "HI",
+      "stateName": "Hawaii",
+      "fips": "15",
+      "name": "Josh Green",
+      "ngaUrl": "https://www.nga.org/governors/hawaii/",
+      "officialUrl": "https://governor.hawaii.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "ID",
+      "stateName": "Idaho",
+      "fips": "16",
+      "name": "Brad Little",
+      "ngaUrl": "https://www.nga.org/governors/idaho/",
+      "officialUrl": "https://gov.idaho.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "IL",
+      "stateName": "Illinois",
+      "fips": "17",
+      "name": "JB Pritzker",
+      "ngaUrl": "https://www.nga.org/governors/illinois/",
+      "officialUrl": "https://gov.illinois.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "IN",
+      "stateName": "Indiana",
+      "fips": "18",
+      "name": "Mike Braun",
+      "ngaUrl": "https://www.nga.org/governors/indiana/",
+      "officialUrl": "https://www.in.gov/gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "IA",
+      "stateName": "Iowa",
+      "fips": "19",
+      "name": "Kim Reynolds",
+      "ngaUrl": "https://www.nga.org/governors/iowa/",
+      "officialUrl": "https://governor.iowa.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "KS",
+      "stateName": "Kansas",
+      "fips": "20",
+      "name": "Laura Kelly",
+      "ngaUrl": "https://www.nga.org/governors/kansas/",
+      "officialUrl": "https://www.governor.ks.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "KY",
+      "stateName": "Kentucky",
+      "fips": "21",
+      "name": "Andy Beshear",
+      "ngaUrl": "https://www.nga.org/governors/kentucky/",
+      "officialUrl": "https://governor.ky.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "LA",
+      "stateName": "Louisiana",
+      "fips": "22",
+      "name": "Jeff Landry",
+      "ngaUrl": "https://www.nga.org/governors/louisiana/",
+      "officialUrl": "https://gov.louisiana.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "ME",
+      "stateName": "Maine",
+      "fips": "23",
+      "name": "Janet Mills",
+      "ngaUrl": "https://www.nga.org/governors/maine/",
+      "officialUrl": "https://www.maine.gov/governor/mills/",
+      "party": "Democrat"
+    },
+    {
+      "state": "MD",
+      "stateName": "Maryland",
+      "fips": "24",
+      "name": "Wes Moore",
+      "ngaUrl": "https://www.nga.org/governors/maryland/",
+      "officialUrl": "https://governor.maryland.gov/leadership/Pages/governor.aspx",
+      "party": "Democrat"
+    },
+    {
+      "state": "MA",
+      "stateName": "Massachusetts",
+      "fips": "25",
+      "name": "Maura Healey",
+      "ngaUrl": "https://www.nga.org/governors/massachusetts/",
+      "officialUrl": "https://www.mass.gov/orgs/governor-maura-healey-and-lt-governor-kim-driscoll",
+      "party": "Democrat"
+    },
+    {
+      "state": "MI",
+      "stateName": "Michigan",
+      "fips": "26",
+      "name": "Gretchen Whitmer",
+      "ngaUrl": "https://www.nga.org/governors/michigan/",
+      "officialUrl": "https://www.michigan.gov/whitmer",
+      "party": "Democrat"
+    },
+    {
+      "state": "MN",
+      "stateName": "Minnesota",
+      "fips": "27",
+      "name": "Tim Walz",
+      "ngaUrl": "https://www.nga.org/governors/minnesota/",
+      "officialUrl": "https://mn.gov/governor/",
+      "party": "Democrat"
+    },
+    {
+      "state": "MS",
+      "stateName": "Mississippi",
+      "fips": "28",
+      "name": "Tate Reeves",
+      "ngaUrl": "https://www.nga.org/governors/mississippi/",
+      "officialUrl": "https://governorreeves.ms.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "MO",
+      "stateName": "Missouri",
+      "fips": "29",
+      "name": "Mike Kehoe",
+      "ngaUrl": "https://www.nga.org/governors/missouri/",
+      "officialUrl": "https://governor.mo.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "MT",
+      "stateName": "Montana",
+      "fips": "30",
+      "name": "Greg Gianforte",
+      "ngaUrl": "https://www.nga.org/governors/montana/",
+      "officialUrl": "https://governor.mt.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "NE",
+      "stateName": "Nebraska",
+      "fips": "31",
+      "name": "Jim Pillen",
+      "ngaUrl": "https://www.nga.org/governors/nebraska/",
+      "officialUrl": "https://governor.nebraska.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "NV",
+      "stateName": "Nevada",
+      "fips": "32",
+      "name": "Joe Lombardo",
+      "ngaUrl": "https://www.nga.org/governors/nevada/",
+      "officialUrl": "https://gov.nv.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "NH",
+      "stateName": "New Hampshire",
+      "fips": "33",
+      "name": "Kelly Ayotte",
+      "ngaUrl": "https://www.nga.org/governors/new-hampshire/",
+      "officialUrl": "https://www.governor.nh.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "NJ",
+      "stateName": "New Jersey",
+      "fips": "34",
+      "name": "Mikie Sherrill",
+      "ngaUrl": "https://www.nga.org/governors/new-jersey/",
+      "officialUrl": "https://www.nj.gov/governor/",
+      "party": "Democrat"
+    },
+    {
+      "state": "NM",
+      "stateName": "New Mexico",
+      "fips": "35",
+      "name": "Michelle Lujan Grisham",
+      "ngaUrl": "https://www.nga.org/governors/new-mexico/",
+      "officialUrl": "https://www.governor.state.nm.us/",
+      "party": "Democrat"
+    },
+    {
+      "state": "NY",
+      "stateName": "New York",
+      "fips": "36",
+      "name": "Kathy Hochul",
+      "ngaUrl": "https://www.nga.org/governors/new-york/",
+      "officialUrl": "https://www.governor.ny.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "NC",
+      "stateName": "North Carolina",
+      "fips": "37",
+      "name": "Josh Stein",
+      "ngaUrl": "https://www.nga.org/governors/north-carolina/",
+      "officialUrl": "https://governor.nc.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "ND",
+      "stateName": "North Dakota",
+      "fips": "38",
+      "name": "Kelly Armstrong",
+      "ngaUrl": "https://www.nga.org/governors/north-dakota/",
+      "officialUrl": "https://www.governor.nd.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "OH",
+      "stateName": "Ohio",
+      "fips": "39",
+      "name": "Mike DeWine",
+      "ngaUrl": "https://www.nga.org/governors/ohio/",
+      "officialUrl": "https://governor.ohio.gov/home",
+      "party": "Republican"
+    },
+    {
+      "state": "OK",
+      "stateName": "Oklahoma",
+      "fips": "40",
+      "name": "Kevin Stitt",
+      "ngaUrl": "https://www.nga.org/governors/oklahoma/",
+      "officialUrl": "https://oklahoma.gov/governor.html",
+      "party": "Republican"
+    },
+    {
+      "state": "OR",
+      "stateName": "Oregon",
+      "fips": "41",
+      "name": "Tina Kotek",
+      "ngaUrl": "https://www.nga.org/governors/oregon/",
+      "officialUrl": "https://www.oregon.gov/gov/Pages/index.aspx",
+      "party": "Democrat"
+    },
+    {
+      "state": "PA",
+      "stateName": "Pennsylvania",
+      "fips": "42",
+      "name": "Josh Shapiro",
+      "ngaUrl": "https://www.nga.org/governors/pennsylvania/",
+      "officialUrl": "https://www.pa.gov/en/governor.html",
+      "party": "Democrat"
+    },
+    {
+      "state": "RI",
+      "stateName": "Rhode Island",
+      "fips": "44",
+      "name": "Dan McKee",
+      "ngaUrl": "https://www.nga.org/governors/rhode-island/",
+      "officialUrl": "https://governor.ri.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "SC",
+      "stateName": "South Carolina",
+      "fips": "45",
+      "name": "Henry McMaster",
+      "ngaUrl": "https://www.nga.org/governors/south-carolina/",
+      "officialUrl": "https://governor.sc.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "SD",
+      "stateName": "South Dakota",
+      "fips": "46",
+      "name": "Larry Rhoden",
+      "ngaUrl": "https://www.nga.org/governors/south-dakota/",
+      "officialUrl": "https://governor.sd.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "TN",
+      "stateName": "Tennessee",
+      "fips": "47",
+      "name": "Bill Lee",
+      "ngaUrl": "https://www.nga.org/governors/tennessee/",
+      "officialUrl": "https://www.tn.gov/governor.html",
+      "party": "Republican"
+    },
+    {
+      "state": "TX",
+      "stateName": "Texas",
+      "fips": "48",
+      "name": "Greg Abbott",
+      "ngaUrl": "https://www.nga.org/governors/texas/",
+      "officialUrl": "https://gov.texas.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "UT",
+      "stateName": "Utah",
+      "fips": "49",
+      "name": "Spencer Cox",
+      "ngaUrl": "https://www.nga.org/governors/utah/",
+      "officialUrl": "https://governor.utah.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "VT",
+      "stateName": "Vermont",
+      "fips": "50",
+      "name": "Phil Scott",
+      "ngaUrl": "https://www.nga.org/governors/vermont/",
+      "officialUrl": "https://governor.vermont.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "VA",
+      "stateName": "Virginia",
+      "fips": "51",
+      "name": "Abigail Spanberger",
+      "ngaUrl": "https://www.nga.org/governors/virginia/",
+      "officialUrl": "https://www.governor.virginia.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "WA",
+      "stateName": "Washington",
+      "fips": "53",
+      "name": "Bob Ferguson",
+      "ngaUrl": "https://www.nga.org/governors/washington/",
+      "officialUrl": "https://governor.wa.gov/",
+      "party": "Democrat"
+    },
+    {
+      "state": "WV",
+      "stateName": "West Virginia",
+      "fips": "54",
+      "name": "Patrick Morrisey",
+      "ngaUrl": "https://www.nga.org/governors/west-virginia/",
+      "officialUrl": "https://governor.wv.gov/",
+      "party": "Republican"
+    },
+    {
+      "state": "WI",
+      "stateName": "Wisconsin",
+      "fips": "55",
+      "name": "Tony Evers",
+      "ngaUrl": "https://www.nga.org/governors/wisconsin/",
+      "officialUrl": "https://evers.wi.gov/pages/home.aspx",
+      "party": "Democrat"
+    },
+    {
+      "state": "WY",
+      "stateName": "Wyoming",
+      "fips": "56",
+      "name": "Mark Gordon",
+      "ngaUrl": "https://www.nga.org/governors/wyoming/",
+      "officialUrl": "https://governor.wyo.gov/",
+      "party": "Republican"
+    }
+  ],
+  "president": {
+    "name": "Donald J. Trump",
+    "officialUrl": "https://www.whitehouse.gov/administration/donald-j-trump/",
+    "contactUrl": "https://www.whitehouse.gov/contact/"
+  }
+}

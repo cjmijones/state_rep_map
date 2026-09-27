@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test:map": "node scripts/check-map-interactions.mjs",
-    "test:congress": "node scripts/check-congress-map.mjs"
+    "test:congress": "node scripts/check-congress-map.mjs",
+    "test:executives": "node scripts/check-executives-map.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
