@@ -1,0 +1,652 @@
+[
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "fips": "01",
+    "bounds": [
+      -88.473227,
+      30.144425,
+      -84.888246,
+      35.008028
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 105
+  },
+  {
+    "code": "AK",
+    "name": "Alaska",
+    "fips": "02",
+    "bounds": [
+      -179.231086,
+      51.175092,
+      179.859681,
+      71.439786
+    ],
+    "upperDistricts": 20,
+    "lowerDistricts": 40
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "fips": "04",
+    "bounds": [
+      -114.8163,
+      31.332342,
+      -109.045172,
+      37.003725
+    ],
+    "upperDistricts": 30,
+    "lowerDistricts": 30
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "fips": "05",
+    "bounds": [
+      -94.617859,
+      33.004282,
+      -89.640997,
+      36.499749
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "fips": "06",
+    "bounds": [
+      -124.482003,
+      32.529508,
+      -114.131211,
+      42.009503
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 80
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "fips": "08",
+    "bounds": [
+      -109.060204,
+      36.992449,
+      -102.041522,
+      41.003444
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 65
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "fips": "09",
+    "bounds": [
+      -73.727775,
+      40.950943,
+      -71.787239,
+      42.050511
+    ],
+    "upperDistricts": 37,
+    "lowerDistricts": 152
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "fips": "10",
+    "bounds": [
+      -75.789023,
+      38.451132,
+      -74.984165,
+      39.839516
+    ],
+    "upperDistricts": 21,
+    "lowerDistricts": 41
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "fips": "12",
+    "bounds": [
+      -87.634896,
+      24.396308,
+      -79.974306,
+      31.000968
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 120
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "fips": "13",
+    "bounds": [
+      -85.605165,
+      30.355757,
+      -80.78296,
+      35.001303
+    ],
+    "upperDistricts": 56,
+    "lowerDistricts": 180
+  },
+  {
+    "code": "HI",
+    "name": "Hawaii",
+    "fips": "15",
+    "bounds": [
+      -178.443593,
+      18.86546,
+      -154.755792,
+      28.517269
+    ],
+    "upperDistricts": 25,
+    "lowerDistricts": 51
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "fips": "16",
+    "bounds": [
+      -117.243027,
+      41.988182,
+      -111.043495,
+      49.000846
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 35
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "fips": "17",
+    "bounds": [
+      -91.513079,
+      36.970298,
+      -87.019935,
+      42.508481
+    ],
+    "upperDistricts": 60,
+    "lowerDistricts": 119
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "fips": "18",
+    "bounds": [
+      -88.097892,
+      37.771672,
+      -84.784535,
+      41.761368
+    ],
+    "upperDistricts": 50,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "fips": "19",
+    "bounds": [
+      -96.639485,
+      40.37544,
+      -90.140061,
+      43.501196
+    ],
+    "upperDistricts": 50,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "fips": "20",
+    "bounds": [
+      -102.051769,
+      36.993016,
+      -94.588387,
+      40.003166
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 125
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "fips": "21",
+    "bounds": [
+      -89.571203,
+      36.497058,
+      -81.964788,
+      39.147732
+    ],
+    "upperDistricts": 38,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "fips": "22",
+    "bounds": [
+      -94.043352,
+      28.855127,
+      -88.758388,
+      33.01962
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 105
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "fips": "23",
+    "bounds": [
+      -71.083928,
+      42.917126,
+      -66.885444,
+      47.459833
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 151
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "fips": "24",
+    "bounds": [
+      -79.487651,
+      37.886605,
+      -74.986282,
+      39.723037
+    ],
+    "upperDistricts": 47,
+    "lowerDistricts": 71
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "fips": "25",
+    "bounds": [
+      -73.50821,
+      41.187053,
+      -69.858861,
+      42.886778
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 161
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "fips": "26",
+    "bounds": [
+      -90.418392,
+      41.696118,
+      -82.122971,
+      48.306063
+    ],
+    "upperDistricts": 38,
+    "lowerDistricts": 110
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "fips": "27",
+    "bounds": [
+      -97.239093,
+      43.499361,
+      -89.483385,
+      49.384479
+    ],
+    "upperDistricts": 67,
+    "lowerDistricts": 134
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "fips": "28",
+    "bounds": [
+      -91.655009,
+      30.139845,
+      -88.097888,
+      34.996099
+    ],
+    "upperDistricts": 52,
+    "lowerDistricts": 122
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "fips": "29",
+    "bounds": [
+      -95.774704,
+      35.995685,
+      -89.098968,
+      40.61364
+    ],
+    "upperDistricts": 34,
+    "lowerDistricts": 163
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "fips": "30",
+    "bounds": [
+      -116.049153,
+      44.357915,
+      -104.039694,
+      49.001109
+    ],
+    "upperDistricts": 50,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "fips": "31",
+    "bounds": [
+      -104.053514,
+      39.999932,
+      -95.30829,
+      43.001707
+    ],
+    "upperDistricts": 49,
+    "lowerDistricts": 0
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "fips": "32",
+    "bounds": [
+      -120.006473,
+      35.001857,
+      -114.039461,
+      42.001842
+    ],
+    "upperDistricts": 21,
+    "lowerDistricts": 42
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "fips": "33",
+    "bounds": [
+      -72.557124,
+      42.697042,
+      -70.575094,
+      45.305778
+    ],
+    "upperDistricts": 25,
+    "lowerDistricts": 165
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "fips": "34",
+    "bounds": [
+      -75.563586,
+      38.788657,
+      -73.88506,
+      41.357607
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 40
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "fips": "35",
+    "bounds": [
+      -109.050431,
+      31.33216,
+      -103.002043,
+      37.000233
+    ],
+    "upperDistricts": 42,
+    "lowerDistricts": 70
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "fips": "36",
+    "bounds": [
+      -79.76259,
+      40.476578,
+      -71.777491,
+      45.015865
+    ],
+    "upperDistricts": 63,
+    "lowerDistricts": 150
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "fips": "37",
+    "bounds": [
+      -84.321821,
+      33.752878,
+      -75.400119,
+      36.588137
+    ],
+    "upperDistricts": 50,
+    "lowerDistricts": 120
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "fips": "38",
+    "bounds": [
+      -104.049012,
+      45.935072,
+      -96.554411,
+      49.000561
+    ],
+    "upperDistricts": 47,
+    "lowerDistricts": 48
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "fips": "39",
+    "bounds": [
+      -84.820305,
+      38.403423,
+      -80.518705,
+      42.327132
+    ],
+    "upperDistricts": 33,
+    "lowerDistricts": 99
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "fips": "40",
+    "bounds": [
+      -103.002413,
+      33.615787,
+      -94.431014,
+      37.002312
+    ],
+    "upperDistricts": 48,
+    "lowerDistricts": 101
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "fips": "41",
+    "bounds": [
+      -124.703541,
+      41.992082,
+      -116.463262,
+      46.299099
+    ],
+    "upperDistricts": 30,
+    "lowerDistricts": 60
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "fips": "42",
+    "bounds": [
+      -80.519851,
+      39.719799,
+      -74.689561,
+      42.516072
+    ],
+    "upperDistricts": 50,
+    "lowerDistricts": 203
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "fips": "44",
+    "bounds": [
+      -71.907258,
+      41.095834,
+      -71.088571,
+      42.018799
+    ],
+    "upperDistricts": 38,
+    "lowerDistricts": 75
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "fips": "45",
+    "bounds": [
+      -83.353928,
+      31.995954,
+      -78.499301,
+      35.215485
+    ],
+    "upperDistricts": 46,
+    "lowerDistricts": 124
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "fips": "46",
+    "bounds": [
+      -104.057879,
+      42.479686,
+      -96.436472,
+      45.945377
+    ],
+    "upperDistricts": 35,
+    "lowerDistricts": 37
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "fips": "47",
+    "bounds": [
+      -90.310491,
+      34.982924,
+      -81.6469,
+      36.678255
+    ],
+    "upperDistricts": 33,
+    "lowerDistricts": 99
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "fips": "48",
+    "bounds": [
+      -106.645646,
+      25.837048,
+      -93.508039,
+      36.500704
+    ],
+    "upperDistricts": 31,
+    "lowerDistricts": 150
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "fips": "49",
+    "bounds": [
+      -114.052885,
+      36.997657,
+      -109.041572,
+      42.001702
+    ],
+    "upperDistricts": 29,
+    "lowerDistricts": 75
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "fips": "50",
+    "bounds": [
+      -73.437905,
+      42.726933,
+      -71.465047,
+      45.016658
+    ],
+    "upperDistricts": 16,
+    "lowerDistricts": 109
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "fips": "51",
+    "bounds": [
+      -83.675395,
+      36.540852,
+      -75.166435,
+      39.466012
+    ],
+    "upperDistricts": 40,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "fips": "53",
+    "bounds": [
+      -124.848974,
+      45.543541,
+      -116.916071,
+      49.002439
+    ],
+    "upperDistricts": 49,
+    "lowerDistricts": 49
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "fips": "54",
+    "bounds": [
+      -82.644591,
+      37.20154,
+      -77.719519,
+      40.638801
+    ],
+    "upperDistricts": 17,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "fips": "55",
+    "bounds": [
+      -92.889433,
+      42.49172,
+      -86.249548,
+      47.309822
+    ],
+    "upperDistricts": 34,
+    "lowerDistricts": 100
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "fips": "56",
+    "bounds": [
+      -111.054558,
+      40.994772,
+      -104.052245,
+      45.005815
+    ],
+    "upperDistricts": 31,
+    "lowerDistricts": 62
+  }
+]

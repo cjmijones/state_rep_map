@@ -1,0 +1,274 @@
+{
+  "AR": [
+    {
+      "chamber": "lower",
+      "geoid": "05008",
+      "code": "008",
+      "name": "State House District 8"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "05001",
+      "code": "001",
+      "name": "State Senate District 1"
+    }
+  ],
+  "CA": [
+    {
+      "chamber": "lower",
+      "geoid": "06003",
+      "code": "003",
+      "name": "Assembly District 3"
+    }
+  ],
+  "FL": [
+    {
+      "chamber": "lower",
+      "geoid": "12055",
+      "code": "055",
+      "name": "State House District 55"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "12078",
+      "code": "078",
+      "name": "State House District 78"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "12113",
+      "code": "113",
+      "name": "State House District 113"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "12116",
+      "code": "116",
+      "name": "State House District 116"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "12039",
+      "code": "039",
+      "name": "State Senate District 39"
+    }
+  ],
+  "GA": [
+    {
+      "chamber": "upper",
+      "geoid": "13012",
+      "code": "012",
+      "name": "State Senate District 12"
+    }
+  ],
+  "IA": [
+    {
+      "chamber": "upper",
+      "geoid": "19011",
+      "code": "011",
+      "name": "State Senate District 11"
+    }
+  ],
+  "LA": [
+    {
+      "chamber": "lower",
+      "geoid": "22092",
+      "code": "092",
+      "name": "State House District 92"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "22014",
+      "code": "014",
+      "name": "State Senate District 14"
+    }
+  ],
+  "MA": [
+    {
+      "chamber": "lower",
+      "geoid": "25042",
+      "code": "042",
+      "name": "1st Franklin District"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "25074",
+      "code": "074",
+      "name": "16th Middlesex District"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "25075",
+      "code": "075",
+      "name": "17th Middlesex District"
+    }
+  ],
+  "MN": [
+    {
+      "chamber": "lower",
+      "geoid": "2721A",
+      "code": "21A",
+      "name": "State House District 21A"
+    }
+  ],
+  "MO": [
+    {
+      "chamber": "lower",
+      "geoid": "29095",
+      "code": "095",
+      "name": "State House District 95"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "29110",
+      "code": "110",
+      "name": "State House District 110"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "29114",
+      "code": "114",
+      "name": "State House District 114"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "29149",
+      "code": "149",
+      "name": "State House District 149"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "29160",
+      "code": "160",
+      "name": "State House District 160"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "29010",
+      "code": "010",
+      "name": "State Senate District 10"
+    }
+  ],
+  "MS": [
+    {
+      "chamber": "lower",
+      "geoid": "28070",
+      "code": "070",
+      "name": "State House District 70"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "28077",
+      "code": "077",
+      "name": "State House District 77"
+    }
+  ],
+  "NC": [
+    {
+      "chamber": "upper",
+      "geoid": "37001",
+      "code": "001",
+      "name": "State Senate District 1"
+    }
+  ],
+  "NH": [
+    {
+      "chamber": "lower",
+      "geoid": "33201",
+      "code": "201",
+      "name": "State House District Cheshire 01"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "33306",
+      "code": "306",
+      "name": "State House District Coos 06"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "33409",
+      "code": "409",
+      "name": "State House District Grafton 09"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "33722",
+      "code": "722",
+      "name": "State House District Rockingham 22"
+    }
+  ],
+  "NM": [
+    {
+      "chamber": "lower",
+      "geoid": "35037",
+      "code": "037",
+      "name": "State House District 37"
+    },
+    {
+      "chamber": "lower",
+      "geoid": "35041",
+      "code": "041",
+      "name": "State House District 41"
+    }
+  ],
+  "NY": [
+    {
+      "chamber": "upper",
+      "geoid": "36012",
+      "code": "012",
+      "name": "State Senate District 12"
+    }
+  ],
+  "OH": [
+    {
+      "chamber": "upper",
+      "geoid": "39013",
+      "code": "013",
+      "name": "State Senate District 13"
+    }
+  ],
+  "OK": [
+    {
+      "chamber": "lower",
+      "geoid": "40099",
+      "code": "099",
+      "name": "State House District 99"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "40024",
+      "code": "024",
+      "name": "State Senate District 24"
+    }
+  ],
+  "TX": [
+    {
+      "chamber": "lower",
+      "geoid": "48093",
+      "code": "093",
+      "name": "State House District 93"
+    },
+    {
+      "chamber": "upper",
+      "geoid": "48022",
+      "code": "022",
+      "name": "State Senate District 22"
+    }
+  ],
+  "VA": [
+    {
+      "chamber": "lower",
+      "geoid": "51020",
+      "code": "020",
+      "name": "State House District 20"
+    }
+  ],
+  "WV": [
+    {
+      "chamber": "lower",
+      "geoid": "54050",
+      "code": "050",
+      "name": "Delegate District 50"
+    }
+  ]
+}

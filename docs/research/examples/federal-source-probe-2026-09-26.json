@@ -1,0 +1,3831 @@
+{
+  "probe": "federal-source-feasibility",
+  "createdAt": "2026-09-27T06:19:59+00:00",
+  "senate": {
+    "status": "ok",
+    "resources": [
+      {
+        "sourceURL": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+        "fetchedAt": "2026-09-27T06:19:59+00:00",
+        "sha256": "62e3f43eaec3fea5dfb3a4e6f42ec5280a485322f9509acec72faf17e3e85aeb"
+      },
+      {
+        "sourceURL": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+        "fetchedAt": "2026-09-27T06:20:00+00:00",
+        "sha256": "e189c7909795bec774614b5f8a4c3bba115cf05437416855819008cc9cce1da0"
+      }
+    ],
+    "vote": {
+      "congress": 119,
+      "session": 2,
+      "roll": 244,
+      "date": "September 24, 2026,  01:45 PM",
+      "question": "On the Concurrent Resolution H.Con.Res. 89",
+      "voteResult": "Concurrent Resolution Rejected (49-50)",
+      "document": "H. Con. Res. 89",
+      "memberCount": 100,
+      "declaredTallyTotal": 100,
+      "members": [
+        {
+          "id": "S428",
+          "name": "Angela Alsobrooks",
+          "displayName": "Alsobrooks (D-MD)",
+          "state": "MD",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "S440",
+          "name": "Alan Armstrong",
+          "displayName": "Armstrong (R-OK)",
+          "state": "OK",
+          "vote": "Nay"
+        },
+        {
+          "id": "S354",
+          "name": "Tammy Baldwin",
+          "displayName": "Baldwin (D-WI)",
+          "state": "WI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S429",
+          "name": "Jim Banks",
+          "displayName": "Banks (R-IN)",
+          "state": "IN",
+          "vote": "Nay"
+        },
+        {
+          "id": "S317",
+          "name": "John Barrasso",
+          "displayName": "Barrasso (R-WY)",
+          "state": "WY",
+          "vote": "Nay"
+        },
+        {
+          "id": "S330",
+          "name": "Michael Bennet",
+          "displayName": "Bennet (D-CO)",
+          "state": "CO",
+          "vote": "Yea"
+        },
+        {
+          "id": "S396",
+          "name": "Marsha Blackburn",
+          "displayName": "Blackburn (R-TN)",
+          "state": "TN",
+          "vote": "Nay"
+        },
+        {
+          "id": "S341",
+          "name": "Richard Blumenthal",
+          "displayName": "Blumenthal (D-CT)",
+          "state": "CT",
+          "vote": "Yea"
+        },
+        {
+          "id": "S430",
+          "name": "Lisa Blunt Rochester",
+          "displayName": "Blunt Rochester (D-DE)",
+          "state": "DE",
+          "vote": "Yea"
+        },
+        {
+          "id": "S370",
+          "name": "Cory Booker",
+          "displayName": "Booker (D-NJ)",
+          "state": "NJ",
+          "vote": "Yea"
+        },
+        {
+          "id": "S343",
+          "name": "John Boozman",
+          "displayName": "Boozman (R-AR)",
+          "state": "AR",
+          "vote": "Nay"
+        },
+        {
+          "id": "S416",
+          "name": "Katie Britt",
+          "displayName": "Britt (R-AL)",
+          "state": "AL",
+          "vote": "Nay"
+        },
+        {
+          "id": "S417",
+          "name": "Ted Budd",
+          "displayName": "Budd (R-NC)",
+          "state": "NC",
+          "vote": "Nay"
+        },
+        {
+          "id": "S275",
+          "name": "Maria Cantwell",
+          "displayName": "Cantwell (D-WA)",
+          "state": "WA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S372",
+          "name": "Shelley Capito",
+          "displayName": "Capito (R-WV)",
+          "state": "WV",
+          "vote": "Nay"
+        },
+        {
+          "id": "S373",
+          "name": "Bill Cassidy",
+          "displayName": "Cassidy (R-LA)",
+          "state": "LA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S252",
+          "name": "Susan Collins",
+          "displayName": "Collins (R-ME)",
+          "state": "ME",
+          "vote": "Yea"
+        },
+        {
+          "id": "S337",
+          "name": "Christopher Coons",
+          "displayName": "Coons (D-DE)",
+          "state": "DE",
+          "vote": "Yea"
+        },
+        {
+          "id": "S287",
+          "name": "John Cornyn",
+          "displayName": "Cornyn (R-TX)",
+          "state": "TX",
+          "vote": "Nay"
+        },
+        {
+          "id": "S385",
+          "name": "Catherine Cortez Masto",
+          "displayName": "Cortez Masto (D-NV)",
+          "state": "NV",
+          "vote": "Yea"
+        },
+        {
+          "id": "S374",
+          "name": "Tom Cotton",
+          "displayName": "Cotton (R-AR)",
+          "state": "AR",
+          "vote": "Nay"
+        },
+        {
+          "id": "S398",
+          "name": "Kevin Cramer",
+          "displayName": "Cramer (R-ND)",
+          "state": "ND",
+          "vote": "Nay"
+        },
+        {
+          "id": "S266",
+          "name": "Mike Crapo",
+          "displayName": "Crapo (R-ID)",
+          "state": "ID",
+          "vote": "Nay"
+        },
+        {
+          "id": "S355",
+          "name": "Ted Cruz",
+          "displayName": "Cruz (R-TX)",
+          "state": "TX",
+          "vote": "Nay"
+        },
+        {
+          "id": "S431",
+          "name": "John Curtis",
+          "displayName": "Curtis (R-UT)",
+          "state": "UT",
+          "vote": "Nay"
+        },
+        {
+          "id": "S375",
+          "name": "Steve Daines",
+          "displayName": "Daines (R-MT)",
+          "state": "MT",
+          "vote": "Nay"
+        },
+        {
+          "id": "S386",
+          "name": "Tammy Duckworth",
+          "displayName": "Duckworth (D-IL)",
+          "state": "IL",
+          "vote": "Yea"
+        },
+        {
+          "id": "S253",
+          "name": "Richard Durbin",
+          "displayName": "Durbin (D-IL)",
+          "state": "IL",
+          "vote": "Yea"
+        },
+        {
+          "id": "S376",
+          "name": "Joni Ernst",
+          "displayName": "Ernst (R-IA)",
+          "state": "IA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S418",
+          "name": "John Fetterman",
+          "displayName": "Fetterman (D-PA)",
+          "state": "PA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S357",
+          "name": "Deb Fischer",
+          "displayName": "Fischer (R-NE)",
+          "state": "NE",
+          "vote": "Nay"
+        },
+        {
+          "id": "S432",
+          "name": "Ruben Gallego",
+          "displayName": "Gallego (D-AZ)",
+          "state": "AZ",
+          "vote": "Yea"
+        },
+        {
+          "id": "S331",
+          "name": "Kirsten Gillibrand",
+          "displayName": "Gillibrand (D-NY)",
+          "state": "NY",
+          "vote": "Yea"
+        },
+        {
+          "id": "S441",
+          "name": "Darline Graham",
+          "displayName": "Graham (R-SC)",
+          "state": "SC",
+          "vote": "Nay"
+        },
+        {
+          "id": "S153",
+          "name": "Chuck Grassley",
+          "displayName": "Grassley (R-IA)",
+          "state": "IA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S407",
+          "name": "Bill Hagerty",
+          "displayName": "Hagerty (R-TN)",
+          "state": "TN",
+          "vote": "Nay"
+        },
+        {
+          "id": "S388",
+          "name": "Maggie Hassan",
+          "displayName": "Hassan (D-NH)",
+          "state": "NH",
+          "vote": "Yea"
+        },
+        {
+          "id": "S399",
+          "name": "Josh Hawley",
+          "displayName": "Hawley (R-MO)",
+          "state": "MO",
+          "vote": "Nay"
+        },
+        {
+          "id": "S359",
+          "name": "Martin Heinrich",
+          "displayName": "Heinrich (D-NM)",
+          "state": "NM",
+          "vote": "Yea"
+        },
+        {
+          "id": "S408",
+          "name": "John Hickenlooper",
+          "displayName": "Hickenlooper (D-CO)",
+          "state": "CO",
+          "vote": "Yea"
+        },
+        {
+          "id": "S361",
+          "name": "Mazie Hirono",
+          "displayName": "Hirono (D-HI)",
+          "state": "HI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S344",
+          "name": "John Hoeven",
+          "displayName": "Hoeven (R-ND)",
+          "state": "ND",
+          "vote": "Nay"
+        },
+        {
+          "id": "S438",
+          "name": "Jon Husted",
+          "displayName": "Husted (R-OH)",
+          "state": "OH",
+          "vote": "Nay"
+        },
+        {
+          "id": "S395",
+          "name": "Cindy Hyde-Smith",
+          "displayName": "Hyde-Smith (R-MS)",
+          "state": "MS",
+          "vote": "Nay"
+        },
+        {
+          "id": "S345",
+          "name": "Ron Johnson",
+          "displayName": "Johnson (R-WI)",
+          "state": "WI",
+          "vote": "Nay"
+        },
+        {
+          "id": "S437",
+          "name": "James Justice",
+          "displayName": "Justice (R-WV)",
+          "state": "WV",
+          "vote": "Nay"
+        },
+        {
+          "id": "S362",
+          "name": "Timothy Kaine",
+          "displayName": "Kaine (D-VA)",
+          "state": "VA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S406",
+          "name": "Mark Kelly",
+          "displayName": "Kelly (D-AZ)",
+          "state": "AZ",
+          "vote": "Yea"
+        },
+        {
+          "id": "S389",
+          "name": "John Kennedy",
+          "displayName": "Kennedy (R-LA)",
+          "state": "LA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S426",
+          "name": "Andy Kim",
+          "displayName": "Kim (D-NJ)",
+          "state": "NJ",
+          "vote": "Yea"
+        },
+        {
+          "id": "S363",
+          "name": "Angus King",
+          "displayName": "King (I-ME)",
+          "state": "ME",
+          "vote": "Yea"
+        },
+        {
+          "id": "S311",
+          "name": "Amy Klobuchar",
+          "displayName": "Klobuchar (D-MN)",
+          "state": "MN",
+          "vote": "Yea"
+        },
+        {
+          "id": "S378",
+          "name": "James Lankford",
+          "displayName": "Lankford (R-OK)",
+          "state": "OK",
+          "vote": "Nay"
+        },
+        {
+          "id": "S346",
+          "name": "Mike Lee",
+          "displayName": "Lee (R-UT)",
+          "state": "UT",
+          "vote": "Nay"
+        },
+        {
+          "id": "S409",
+          "name": "Ben Lujan",
+          "displayName": "Lujan (D-NM)",
+          "state": "NM",
+          "vote": "Yea"
+        },
+        {
+          "id": "S410",
+          "name": "Cynthia Lummis",
+          "displayName": "Lummis (R-WY)",
+          "state": "WY",
+          "vote": "Nay"
+        },
+        {
+          "id": "S369",
+          "name": "Edward Markey",
+          "displayName": "Markey (D-MA)",
+          "state": "MA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S411",
+          "name": "Roger Marshall",
+          "displayName": "Marshall (R-KS)",
+          "state": "KS",
+          "vote": "Nay"
+        },
+        {
+          "id": "S174",
+          "name": "Mitch McConnell",
+          "displayName": "McConnell (R-KY)",
+          "state": "KY",
+          "vote": "Nay"
+        },
+        {
+          "id": "S433",
+          "name": "David McCormick",
+          "displayName": "McCormick (R-PA)",
+          "state": "PA",
+          "vote": "Nay"
+        },
+        {
+          "id": "S322",
+          "name": "Jeff Merkley",
+          "displayName": "Merkley (D-OR)",
+          "state": "OR",
+          "vote": "Yea"
+        },
+        {
+          "id": "S439",
+          "name": "Ashley Moody",
+          "displayName": "Moody (R-FL)",
+          "state": "FL",
+          "vote": "Nay"
+        },
+        {
+          "id": "S347",
+          "name": "Jerry Moran",
+          "displayName": "Moran (R-KS)",
+          "state": "KS",
+          "vote": "Nay"
+        },
+        {
+          "id": "S434",
+          "name": "Bernie Moreno",
+          "displayName": "Moreno (R-OH)",
+          "state": "OH",
+          "vote": "Nay"
+        },
+        {
+          "id": "S288",
+          "name": "Lisa Murkowski",
+          "displayName": "Murkowski (R-AK)",
+          "state": "AK",
+          "vote": "Yea"
+        },
+        {
+          "id": "S364",
+          "name": "Christopher Murphy",
+          "displayName": "Murphy (D-CT)",
+          "state": "CT",
+          "vote": "Yea"
+        },
+        {
+          "id": "S229",
+          "name": "Patty Murray",
+          "displayName": "Murray (D-WA)",
+          "state": "WA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S414",
+          "name": "Jon Ossoff",
+          "displayName": "Ossoff (D-GA)",
+          "state": "GA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S413",
+          "name": "Alex Padilla",
+          "displayName": "Padilla (D-CA)",
+          "state": "CA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S348",
+          "name": "Rand Paul",
+          "displayName": "Paul (R-KY)",
+          "state": "KY",
+          "vote": "Yea"
+        },
+        {
+          "id": "S380",
+          "name": "Gary Peters",
+          "displayName": "Peters (D-MI)",
+          "state": "MI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S259",
+          "name": "John Reed",
+          "displayName": "Reed (D-RI)",
+          "state": "RI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S423",
+          "name": "Pete Ricketts",
+          "displayName": "Ricketts (R-NE)",
+          "state": "NE",
+          "vote": "Nay"
+        },
+        {
+          "id": "S323",
+          "name": "James Risch",
+          "displayName": "Risch (R-ID)",
+          "state": "ID",
+          "vote": "Nay"
+        },
+        {
+          "id": "S402",
+          "name": "Jacky Rosen",
+          "displayName": "Rosen (D-NV)",
+          "state": "NV",
+          "vote": "Yea"
+        },
+        {
+          "id": "S381",
+          "name": "Mike Rounds",
+          "displayName": "Rounds (R-SD)",
+          "state": "SD",
+          "vote": "Nay"
+        },
+        {
+          "id": "S313",
+          "name": "Bernie Sanders",
+          "displayName": "Sanders (I-VT)",
+          "state": "VT",
+          "vote": "Yea"
+        },
+        {
+          "id": "S353",
+          "name": "Brian Schatz",
+          "displayName": "Schatz (D-HI)",
+          "state": "HI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S427",
+          "name": "Adam Schiff",
+          "displayName": "Schiff (D-CA)",
+          "state": "CA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S420",
+          "name": "Eric Schmitt",
+          "displayName": "Schmitt (R-MO)",
+          "state": "MO",
+          "vote": "Nay"
+        },
+        {
+          "id": "S270",
+          "name": "Charles Schumer",
+          "displayName": "Schumer (D-NY)",
+          "state": "NY",
+          "vote": "Yea"
+        },
+        {
+          "id": "S404",
+          "name": "Rick Scott",
+          "displayName": "Scott (R-FL)",
+          "state": "FL",
+          "vote": "Nay"
+        },
+        {
+          "id": "S365",
+          "name": "Tim Scott",
+          "displayName": "Scott (R-SC)",
+          "state": "SC",
+          "vote": "Nay"
+        },
+        {
+          "id": "S324",
+          "name": "Jeanne Shaheen",
+          "displayName": "Shaheen (D-NH)",
+          "state": "NH",
+          "vote": "Yea"
+        },
+        {
+          "id": "S435",
+          "name": "Tim Sheehy",
+          "displayName": "Sheehy (R-MT)",
+          "state": "MT",
+          "vote": "Nay"
+        },
+        {
+          "id": "S436",
+          "name": "Elissa Slotkin",
+          "displayName": "Slotkin (D-MI)",
+          "state": "MI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S394",
+          "name": "Tina Smith",
+          "displayName": "Smith (D-MN)",
+          "state": "MN",
+          "vote": "Yea"
+        },
+        {
+          "id": "S383",
+          "name": "Dan Sullivan",
+          "displayName": "Sullivan (R-AK)",
+          "state": "AK",
+          "vote": "Nay"
+        },
+        {
+          "id": "S303",
+          "name": "John Thune",
+          "displayName": "Thune (R-SD)",
+          "state": "SD",
+          "vote": "Nay"
+        },
+        {
+          "id": "S384",
+          "name": "Thomas Tillis",
+          "displayName": "Tillis (R-NC)",
+          "state": "NC",
+          "vote": "Yea"
+        },
+        {
+          "id": "S412",
+          "name": "Tommy Tuberville",
+          "displayName": "Tuberville (R-AL)",
+          "state": "AL",
+          "vote": "Nay"
+        },
+        {
+          "id": "S390",
+          "name": "Chris Van Hollen",
+          "displayName": "Van Hollen (D-MD)",
+          "state": "MD",
+          "vote": "Yea"
+        },
+        {
+          "id": "S327",
+          "name": "Mark Warner",
+          "displayName": "Warner (D-VA)",
+          "state": "VA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S415",
+          "name": "Raphael Warnock",
+          "displayName": "Warnock (D-GA)",
+          "state": "GA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S366",
+          "name": "Elizabeth Warren",
+          "displayName": "Warren (D-MA)",
+          "state": "MA",
+          "vote": "Yea"
+        },
+        {
+          "id": "S422",
+          "name": "Peter Welch",
+          "displayName": "Welch (D-VT)",
+          "state": "VT",
+          "vote": "Yea"
+        },
+        {
+          "id": "S316",
+          "name": "Sheldon Whitehouse",
+          "displayName": "Whitehouse (D-RI)",
+          "state": "RI",
+          "vote": "Yea"
+        },
+        {
+          "id": "S318",
+          "name": "Roger Wicker",
+          "displayName": "Wicker (R-MS)",
+          "state": "MS",
+          "vote": "Nay"
+        },
+        {
+          "id": "S247",
+          "name": "Ron Wyden",
+          "displayName": "Wyden (D-OR)",
+          "state": "OR",
+          "vote": "Yea"
+        },
+        {
+          "id": "S391",
+          "name": "Todd Young",
+          "displayName": "Young (R-IN)",
+          "state": "IN",
+          "vote": "Nay"
+        }
+      ]
+    }
+  },
+  "house": {
+    "status": "ok",
+    "resources": [
+      {
+        "sourceURL": "https://clerk.house.gov/evs/2026/index.asp",
+        "fetchedAt": "2026-09-27T06:20:00+00:00",
+        "sha256": "543511881a3c821dd378f3992c1b5df8360a34db8976b71941439349347041b6"
+      },
+      {
+        "sourceURL": "https://clerk.house.gov/evs/2026/roll314.xml",
+        "fetchedAt": "2026-09-27T06:20:00+00:00",
+        "sha256": "162e33c2353018f0b80d7a4db7be0cd66cf535e6c6a3db04863f5c5b59578f21"
+      }
+    ],
+    "sampleLabel": "latest listed roll at refresh time",
+    "vote": {
+      "congress": 119,
+      "session": 2,
+      "year": 2026,
+      "roll": 314,
+      "date": "16-Sep-2026",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "voteResult": "Passed",
+      "voteType": "2/3 YEA-AND-NAY",
+      "document": "S 2403",
+      "description": "Retire through Ownership Act",
+      "memberCount": 433,
+      "declaredTallyTotal": 433,
+      "members": [
+        {
+          "id": "A000370",
+          "name": "Adams",
+          "state": "NC",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000055",
+          "name": "Aderholt",
+          "state": "AL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000371",
+          "name": "Aguilar",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000379",
+          "name": "Alford",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000372",
+          "name": "Allen",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000380",
+          "name": "Amo",
+          "state": "RI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000369",
+          "name": "Amodei (NV)",
+          "state": "NV",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000381",
+          "name": "Ansari",
+          "state": "AZ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000375",
+          "name": "Arrington",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "A000148",
+          "name": "Auchincloss",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001291",
+          "name": "Babin",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001298",
+          "name": "Bacon",
+          "state": "NE",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001307",
+          "name": "Baird",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001306",
+          "name": "Balderson",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001318",
+          "name": "Balint",
+          "state": "VT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001282",
+          "name": "Barr",
+          "state": "KY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001300",
+          "name": "Barragán",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001321",
+          "name": "Barrett",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001322",
+          "name": "Baumgartner",
+          "state": "WA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001314",
+          "name": "Bean (FL)",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001281",
+          "name": "Beatty",
+          "state": "OH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001323",
+          "name": "Begich",
+          "state": "AK",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001324",
+          "name": "Bell",
+          "state": "MO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B000668",
+          "name": "Bentz",
+          "state": "OR",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001287",
+          "name": "Bera",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001301",
+          "name": "Bergman",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001292",
+          "name": "Beyer",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B000740",
+          "name": "Bice",
+          "state": "OK",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001302",
+          "name": "Biggs (AZ)",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "B001325",
+          "name": "Biggs (SC)",
+          "state": "SC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001257",
+          "name": "Bilirakis",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B000490",
+          "name": "Bishop",
+          "state": "GA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001328",
+          "name": "Blair",
+          "state": "GA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B000825",
+          "name": "Boebert",
+          "state": "CO",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "B001278",
+          "name": "Bonamici",
+          "state": "OR",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001295",
+          "name": "Bost",
+          "state": "IL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001296",
+          "name": "Boyle (PA)",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001317",
+          "name": "Brecheen",
+          "state": "OK",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "B001327",
+          "name": "Bresnahan",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001313",
+          "name": "Brown",
+          "state": "OH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001285",
+          "name": "Brownley",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001260",
+          "name": "Buchanan",
+          "state": "FL",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "B001315",
+          "name": "Budzinski",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001309",
+          "name": "Burchett",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001316",
+          "name": "Burlison",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "B001326",
+          "name": "Bynum",
+          "state": "OR",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C000059",
+          "name": "Calvert",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001039",
+          "name": "Cammack",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001112",
+          "name": "Carbajal",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001126",
+          "name": "Carey",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001072",
+          "name": "Carson",
+          "state": "IN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001103",
+          "name": "Carter (GA)",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001125",
+          "name": "Carter (LA)",
+          "state": "LA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001051",
+          "name": "Carter (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001131",
+          "name": "Casar",
+          "state": "TX",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "C001055",
+          "name": "Case",
+          "state": "HI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001117",
+          "name": "Casten",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001066",
+          "name": "Castor (FL)",
+          "state": "FL",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "C001091",
+          "name": "Castro (TX)",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001080",
+          "name": "Chu",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001133",
+          "name": "Ciscomani",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001123",
+          "name": "Cisneros",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001101",
+          "name": "Clark (MA)",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001067",
+          "name": "Clarke (NY)",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001061",
+          "name": "Cleaver",
+          "state": "MO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001118",
+          "name": "Cline",
+          "state": "VA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001115",
+          "name": "Cloud",
+          "state": "TX",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "C000537",
+          "name": "Clyburn",
+          "state": "SC",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001116",
+          "name": "Clyde",
+          "state": "GA",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "C001068",
+          "name": "Cohen",
+          "state": "TN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001053",
+          "name": "Cole",
+          "state": "OK",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001129",
+          "name": "Collins",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001108",
+          "name": "Comer",
+          "state": "KY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001136",
+          "name": "Conaway",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001110",
+          "name": "Correa",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001059",
+          "name": "Costa",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001069",
+          "name": "Courtney",
+          "state": "CT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001119",
+          "name": "Craig",
+          "state": "MN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001132",
+          "name": "Crane",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "C001137",
+          "name": "Crank",
+          "state": "CO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001087",
+          "name": "Crawford",
+          "state": "AR",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001120",
+          "name": "Crenshaw",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001130",
+          "name": "Crockett",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001121",
+          "name": "Crow",
+          "state": "CO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "C001063",
+          "name": "Cuellar",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000629",
+          "name": "Davids (KS)",
+          "state": "KS",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000626",
+          "name": "Davidson",
+          "state": "OH",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "D000096",
+          "name": "Davis (IL)",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000230",
+          "name": "Davis (NC)",
+          "state": "NC",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000594",
+          "name": "De La Cruz",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000631",
+          "name": "Dean (PA)",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000197",
+          "name": "DeGette",
+          "state": "CO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000216",
+          "name": "DeLauro",
+          "state": "CT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000617",
+          "name": "DelBene",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000530",
+          "name": "Deluzio",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000623",
+          "name": "DeSaulnier",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000616",
+          "name": "DesJarlais",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000635",
+          "name": "Dexter",
+          "state": "OR",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000600",
+          "name": "Diaz-Balart",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000624",
+          "name": "Dingell",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000399",
+          "name": "Doggett",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000032",
+          "name": "Donalds",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000634",
+          "name": "Downing",
+          "state": "MT",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "D000628",
+          "name": "Dunn (FL)",
+          "state": "FL",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "E000246",
+          "name": "Edwards",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000301",
+          "name": "Elfreth",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000071",
+          "name": "Ellzey",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000294",
+          "name": "Emmer",
+          "state": "MN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000299",
+          "name": "Escobar",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000297",
+          "name": "Espaillat",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000298",
+          "name": "Estes",
+          "state": "KS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000300",
+          "name": "Evans (CO)",
+          "state": "CO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000296",
+          "name": "Evans (PA)",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "E000235",
+          "name": "Ezell",
+          "state": "MS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000246",
+          "name": "Fallon",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000482",
+          "name": "Fedorchak",
+          "state": "ND",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000446",
+          "name": "Feenstra",
+          "state": "IA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000110",
+          "name": "Fields",
+          "state": "LA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000481",
+          "name": "Figures",
+          "state": "AL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000484",
+          "name": "Fine",
+          "state": "FL",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "F000475",
+          "name": "Finstad",
+          "state": "MN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000470",
+          "name": "Fischbach",
+          "state": "MN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000471",
+          "name": "Fitzgerald",
+          "state": "WI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000466",
+          "name": "Fitzpatrick",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000459",
+          "name": "Fleischmann",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000468",
+          "name": "Fletcher",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000474",
+          "name": "Flood",
+          "state": "NE",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000480",
+          "name": "Fong",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000454",
+          "name": "Foster",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000477",
+          "name": "Foushee",
+          "state": "NC",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000450",
+          "name": "Foxx",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000462",
+          "name": "Frankel, Lois",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000472",
+          "name": "Franklin, Scott",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000483",
+          "name": "Friedman",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000476",
+          "name": "Frost",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000478",
+          "name": "Fry",
+          "state": "SC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "F000469",
+          "name": "Fulcher",
+          "state": "ID",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "F000485",
+          "name": "Fuller",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000607",
+          "name": "Gallagher",
+          "state": "CA",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "G000559",
+          "name": "Garamendi",
+          "state": "CA",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "G000597",
+          "name": "Garbarino",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000598",
+          "name": "Garcia (CA)",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000586",
+          "name": "García (IL)",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000587",
+          "name": "Garcia (TX)",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000603",
+          "name": "Gill (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "G000602",
+          "name": "Gillen",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000593",
+          "name": "Gimenez",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000592",
+          "name": "Golden (ME)",
+          "state": "ME",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000599",
+          "name": "Goldman (NY)",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000601",
+          "name": "Goldman (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000585",
+          "name": "Gomez",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000581",
+          "name": "Gonzalez, V.",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000589",
+          "name": "Gooden",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000604",
+          "name": "Goodlander",
+          "state": "NH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000565",
+          "name": "Gosar",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000583",
+          "name": "Gottheimer",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000546",
+          "name": "Graves",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000605",
+          "name": "Gray",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000553",
+          "name": "Green, Al (TX)",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000568",
+          "name": "Griffith",
+          "state": "VA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000606",
+          "name": "Grijalva",
+          "state": "AZ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000576",
+          "name": "Grothman",
+          "state": "WI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000591",
+          "name": "Guest",
+          "state": "MS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000558",
+          "name": "Guthrie",
+          "state": "KY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001096",
+          "name": "Hageman",
+          "state": "WY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001098",
+          "name": "Hamadeh (AZ)",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001090",
+          "name": "Harder (CA)",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001099",
+          "name": "Haridopolos",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001101",
+          "name": "Harrigan",
+          "state": "NC",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "H001052",
+          "name": "Harris (MD)",
+          "state": "MD",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "H001102",
+          "name": "Harris (NC)",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001086",
+          "name": "Harshbarger",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001081",
+          "name": "Hayes",
+          "state": "CT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001082",
+          "name": "Hern (OK)",
+          "state": "OK",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001077",
+          "name": "Higgins (LA)",
+          "state": "LA",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "H001072",
+          "name": "Hill (AR)",
+          "state": "AR",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001047",
+          "name": "Himes",
+          "state": "CT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001091",
+          "name": "Hinson",
+          "state": "IA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001066",
+          "name": "Horsford",
+          "state": "NV",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001093",
+          "name": "Houchin",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001085",
+          "name": "Houlahan",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H000874",
+          "name": "Hoyer",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001094",
+          "name": "Hoyle (OR)",
+          "state": "OR",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001067",
+          "name": "Hudson",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001068",
+          "name": "Huffman",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001058",
+          "name": "Huizenga",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001095",
+          "name": "Hunt",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "H001100",
+          "name": "Hurd (CO)",
+          "state": "CO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "I000056",
+          "name": "Issa",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "I000058",
+          "name": "Ivey",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000311",
+          "name": "Jack",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000309",
+          "name": "Jackson (IL)",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000304",
+          "name": "Jackson (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000305",
+          "name": "Jacobs",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000307",
+          "name": "James",
+          "state": "MI",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "J000298",
+          "name": "Jayapal",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000294",
+          "name": "Jeffries",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000288",
+          "name": "Johnson (GA)",
+          "state": "GA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000299",
+          "name": "Johnson (LA)",
+          "state": "LA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000301",
+          "name": "Johnson (SD)",
+          "state": "SD",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000310",
+          "name": "Johnson (TX)",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000289",
+          "name": "Jordan",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000295",
+          "name": "Joyce (OH)",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "J000302",
+          "name": "Joyce (PA)",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000400",
+          "name": "Kamlager-Dove",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000009",
+          "name": "Kaptur",
+          "state": "OH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000398",
+          "name": "Kean",
+          "state": "NJ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000375",
+          "name": "Keating",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000385",
+          "name": "Kelly (IL)",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000388",
+          "name": "Kelly (MS)",
+          "state": "MS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000376",
+          "name": "Kelly (PA)",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000402",
+          "name": "Kennedy (NY)",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000403",
+          "name": "Kennedy (UT)",
+          "state": "UT",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000389",
+          "name": "Khanna",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000399",
+          "name": "Kiggans (VA)",
+          "state": "VA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000401",
+          "name": "Kiley (CA)",
+          "state": "CA",
+          "party": "I",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000397",
+          "name": "Kim",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000405",
+          "name": "Knott",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000391",
+          "name": "Krishnamoorthi",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "K000392",
+          "name": "Kustoff",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000585",
+          "name": "LaHood",
+          "state": "IL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000598",
+          "name": "LaLota",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000601",
+          "name": "Landsman",
+          "state": "OH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000600",
+          "name": "Langworthy",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000560",
+          "name": "Larsen (WA)",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000557",
+          "name": "Larson (CT)",
+          "state": "CT",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000606",
+          "name": "Latimer",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000566",
+          "name": "Latta",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000599",
+          "name": "Lawler",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000597",
+          "name": "Lee (FL)",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000590",
+          "name": "Lee (NV)",
+          "state": "NV",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000602",
+          "name": "Lee (PA)",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000273",
+          "name": "Leger Fernandez",
+          "state": "NM",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000595",
+          "name": "Letlow",
+          "state": "LA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000593",
+          "name": "Levin",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000607",
+          "name": "Liccardo",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000582",
+          "name": "Lieu",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000397",
+          "name": "Lofgren",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000583",
+          "name": "Loudermilk",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000491",
+          "name": "Lucas",
+          "state": "OK",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000596",
+          "name": "Luna",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000603",
+          "name": "Luttrell",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "L000562",
+          "name": "Lynch",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M000194",
+          "name": "Mace",
+          "state": "SC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001230",
+          "name": "Mackenzie",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001223",
+          "name": "Magaziner",
+          "state": "RI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M000317",
+          "name": "Malliotakis",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001228",
+          "name": "Maloy",
+          "state": "UT",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M000871",
+          "name": "Mann",
+          "state": "KS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001231",
+          "name": "Mannion",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001184",
+          "name": "Massie",
+          "state": "KY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001199",
+          "name": "Mast",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001163",
+          "name": "Matsui",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001208",
+          "name": "McBath",
+          "state": "GA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001238",
+          "name": "McBride",
+          "state": "DE",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001157",
+          "name": "McCaul",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001136",
+          "name": "McClain",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001232",
+          "name": "McClain Delaney",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001227",
+          "name": "McClellan",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001177",
+          "name": "McClintock",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001143",
+          "name": "McCollum",
+          "state": "MN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001218",
+          "name": "McCormick",
+          "state": "GA",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "M001237",
+          "name": "McDonald Rivet",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001240",
+          "name": "McDowell",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001220",
+          "name": "McGarvey",
+          "state": "KY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M000312",
+          "name": "McGovern",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001239",
+          "name": "McGuire",
+          "state": "VA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001229",
+          "name": "McIver",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001137",
+          "name": "Meeks",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001246",
+          "name": "Mejia",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001245",
+          "name": "Menefee",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001226",
+          "name": "Menendez",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001188",
+          "name": "Meng",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001233",
+          "name": "Messmer",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001204",
+          "name": "Meuser",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M000687",
+          "name": "Mfume",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001211",
+          "name": "Miller (IL)",
+          "state": "IL",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "M001222",
+          "name": "Miller (OH)",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001205",
+          "name": "Miller (WV)",
+          "state": "WV",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001215",
+          "name": "Miller-Meeks",
+          "state": "IA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001216",
+          "name": "Mills",
+          "state": "FL",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "M001241",
+          "name": "Min",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001194",
+          "name": "Moolenaar",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001212",
+          "name": "Moore (AL)",
+          "state": "AL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001236",
+          "name": "Moore (NC)",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001213",
+          "name": "Moore (UT)",
+          "state": "UT",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001160",
+          "name": "Moore (WI)",
+          "state": "WI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001235",
+          "name": "Moore (WV)",
+          "state": "WV",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001224",
+          "name": "Moran",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001206",
+          "name": "Morelle",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001234",
+          "name": "Morrison",
+          "state": "MN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001217",
+          "name": "Moskowitz",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001196",
+          "name": "Moulton",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001214",
+          "name": "Mrvan",
+          "state": "IN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001225",
+          "name": "Mullin",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "M001210",
+          "name": "Murphy",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000002",
+          "name": "Nadler",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000015",
+          "name": "Neal",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000191",
+          "name": "Neguse",
+          "state": "CO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000026",
+          "name": "Nehls",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000189",
+          "name": "Newhouse",
+          "state": "WA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000188",
+          "name": "Norcross",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "N000190",
+          "name": "Norman",
+          "state": "SC",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "N000193",
+          "name": "Nunn (IA)",
+          "state": "IA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000019",
+          "name": "Obernolte",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000172",
+          "name": "Ocasio-Cortez",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000175",
+          "name": "Ogles",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000176",
+          "name": "Olszewski",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000173",
+          "name": "Omar",
+          "state": "MN",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000177",
+          "name": "Onder",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "O000086",
+          "name": "Owens",
+          "state": "UT",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000034",
+          "name": "Pallone",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000609",
+          "name": "Palmer",
+          "state": "AL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000613",
+          "name": "Panetta",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000614",
+          "name": "Pappas",
+          "state": "NH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000622",
+          "name": "Patronis",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000197",
+          "name": "Pelosi",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "G000600",
+          "name": "Perez",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000605",
+          "name": "Perry",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000608",
+          "name": "Peters",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000620",
+          "name": "Pettersen",
+          "state": "CO",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000048",
+          "name": "Pfluger",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000597",
+          "name": "Pingree",
+          "state": "ME",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000607",
+          "name": "Pocan",
+          "state": "WI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000621",
+          "name": "Pou",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "P000617",
+          "name": "Pressley",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "Q000023",
+          "name": "Quigley",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000617",
+          "name": "Ramirez",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000621",
+          "name": "Randall",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000606",
+          "name": "Raskin",
+          "state": "MD",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000610",
+          "name": "Reschenthaler",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000622",
+          "name": "Riley (NY)",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000620",
+          "name": "Rivas",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000575",
+          "name": "Rogers (AL)",
+          "state": "AL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000395",
+          "name": "Rogers (KY)",
+          "state": "KY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000612",
+          "name": "Rose",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000305",
+          "name": "Ross",
+          "state": "NC",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000603",
+          "name": "Rouzer",
+          "state": "NC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000614",
+          "name": "Roy",
+          "state": "TX",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "R000599",
+          "name": "Ruiz",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000619",
+          "name": "Rulli",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000609",
+          "name": "Rutherford",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "R000579",
+          "name": "Ryan",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000168",
+          "name": "Salazar",
+          "state": "FL",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "S001226",
+          "name": "Salinas",
+          "state": "OR",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001156",
+          "name": "Sánchez",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001176",
+          "name": "Scalise",
+          "state": "LA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001205",
+          "name": "Scanlon",
+          "state": "PA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001145",
+          "name": "Schakowsky",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001228",
+          "name": "Schmidt",
+          "state": "KS",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001190",
+          "name": "Schneider",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001221",
+          "name": "Scholten",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001216",
+          "name": "Schrier",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001183",
+          "name": "Schweikert",
+          "state": "AZ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000185",
+          "name": "Scott (VA)",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001189",
+          "name": "Scott, Austin",
+          "state": "GA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001224",
+          "name": "Self",
+          "state": "TX",
+          "party": "R",
+          "vote": "Nay"
+        },
+        {
+          "id": "S000250",
+          "name": "Sessions",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001185",
+          "name": "Sewell",
+          "state": "AL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000344",
+          "name": "Sherman",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001229",
+          "name": "Shreve",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001231",
+          "name": "Simon",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001148",
+          "name": "Simpson",
+          "state": "ID",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001195",
+          "name": "Smith (MO)",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001172",
+          "name": "Smith (NE)",
+          "state": "NE",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000522",
+          "name": "Smith (NJ)",
+          "state": "NJ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000510",
+          "name": "Smith (WA)",
+          "state": "WA",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "S001199",
+          "name": "Smucker",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001225",
+          "name": "Sorensen",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001200",
+          "name": "Soto",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S000929",
+          "name": "Spartz",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001218",
+          "name": "Stansbury",
+          "state": "NM",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001211",
+          "name": "Stanton",
+          "state": "AZ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001212",
+          "name": "Stauber",
+          "state": "MN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001196",
+          "name": "Stefanik",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001213",
+          "name": "Steil",
+          "state": "WI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001214",
+          "name": "Steube",
+          "state": "FL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001215",
+          "name": "Stevens",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001159",
+          "name": "Strickland",
+          "state": "WA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001220",
+          "name": "Strong",
+          "state": "AL",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001188",
+          "name": "Stutzman",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001230",
+          "name": "Subramanyam",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001201",
+          "name": "Suozzi",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "S001223",
+          "name": "Sykes",
+          "state": "OH",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000472",
+          "name": "Takano",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000490",
+          "name": "Taylor",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000478",
+          "name": "Tenney",
+          "state": "NY",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000488",
+          "name": "Thanedar",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000460",
+          "name": "Thompson (CA)",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000193",
+          "name": "Thompson (MS)",
+          "state": "MS",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000467",
+          "name": "Thompson (PA)",
+          "state": "PA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000165",
+          "name": "Tiffany",
+          "state": "WI",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "T000480",
+          "name": "Timmons",
+          "state": "SC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000468",
+          "name": "Titus",
+          "state": "NV",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000481",
+          "name": "Tlaib",
+          "state": "MI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000487",
+          "name": "Tokuda",
+          "state": "HI",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000469",
+          "name": "Tonko",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000474",
+          "name": "Torres (CA)",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000486",
+          "name": "Torres (NY)",
+          "state": "NY",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000482",
+          "name": "Trahan",
+          "state": "MA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000491",
+          "name": "Tran",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "T000463",
+          "name": "Turner (OH)",
+          "state": "OH",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "U000040",
+          "name": "Underwood",
+          "state": "IL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000129",
+          "name": "Valadao",
+          "state": "CA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000133",
+          "name": "Van Drew",
+          "state": "NJ",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000134",
+          "name": "Van Duyne",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000139",
+          "name": "Van Epps",
+          "state": "TN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000135",
+          "name": "Van Orden",
+          "state": "WI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000130",
+          "name": "Vargas",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000136",
+          "name": "Vasquez",
+          "state": "NM",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000131",
+          "name": "Veasey",
+          "state": "TX",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "V000081",
+          "name": "Velázquez",
+          "state": "NY",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "V000138",
+          "name": "Vindman",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000812",
+          "name": "Wagner",
+          "state": "MO",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000832",
+          "name": "Wahab",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000798",
+          "name": "Walberg",
+          "state": "MI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000831",
+          "name": "Walkinshaw",
+          "state": "VA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000797",
+          "name": "Wasserman Schultz",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000187",
+          "name": "Waters",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000822",
+          "name": "Watson Coleman",
+          "state": "NJ",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000814",
+          "name": "Weber (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000806",
+          "name": "Webster (FL)",
+          "state": "FL",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "W000821",
+          "name": "Westerman",
+          "state": "AR",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000830",
+          "name": "Whitesides",
+          "state": "CA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000829",
+          "name": "Wied",
+          "state": "WI",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000788",
+          "name": "Williams (GA)",
+          "state": "GA",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000816",
+          "name": "Williams (TX)",
+          "state": "TX",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000808",
+          "name": "Wilson (FL)",
+          "state": "FL",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000795",
+          "name": "Wilson (SC)",
+          "state": "SC",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000804",
+          "name": "Wittman",
+          "state": "VA",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "W000809",
+          "name": "Womack",
+          "state": "AR",
+          "party": "R",
+          "vote": "Not Voting"
+        },
+        {
+          "id": "Y000067",
+          "name": "Yakym",
+          "state": "IN",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "id": "Z000018",
+          "name": "Zinke",
+          "state": "MT",
+          "party": "R",
+          "vote": "Yea"
+        }
+      ]
+    }
+  },
+  "census": {
+    "status": "ok",
+    "resources": [
+      {
+        "sourceURL": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer?f=pjson",
+        "fetchedAt": "2026-09-27T06:20:01+00:00",
+        "sha256": "2f54f9626d7d8dcdede998ba295991bf6afc91fceaf377821a47b2d0aabb4b1f"
+      },
+      {
+        "sourceURL": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/4?f=pjson",
+        "fetchedAt": "2026-09-27T06:20:01+00:00",
+        "sha256": "5262b0b2667544bf84fb489ac92d3c5828879fd6fe21bfcdba446b57229a5e2e"
+      },
+      {
+        "sourceURL": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/4/query?where=STATE+IN+%28%2701%27%2C%2702%27%2C%2704%27%2C%2705%27%2C%2706%27%2C%2708%27%2C%2709%27%2C%2710%27%2C%2712%27%2C%2713%27%2C%2715%27%2C%2716%27%2C%2717%27%2C%2718%27%2C%2719%27%2C%2720%27%2C%2721%27%2C%2722%27%2C%2723%27%2C%2724%27%2C%2725%27%2C%2726%27%2C%2727%27%2C%2728%27%2C%2729%27%2C%2730%27%2C%2731%27%2C%2732%27%2C%2733%27%2C%2734%27%2C%2735%27%2C%2736%27%2C%2737%27%2C%2738%27%2C%2739%27%2C%2740%27%2C%2741%27%2C%2742%27%2C%2744%27%2C%2745%27%2C%2746%27%2C%2747%27%2C%2748%27%2C%2749%27%2C%2750%27%2C%2751%27%2C%2753%27%2C%2754%27%2C%2755%27%2C%2756%27%29&returnCountOnly=true&returnGeometry=false&f=json",
+        "fetchedAt": "2026-09-27T06:20:01+00:00",
+        "sha256": "076cba0e8eaaac58fdeb4976c7f0d983ac2804502c395da628870f1dfd62a495"
+      },
+      {
+        "sourceURL": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/4/query?where=STATE+IN+%28%2701%27%2C%2702%27%2C%2704%27%2C%2705%27%2C%2706%27%2C%2708%27%2C%2709%27%2C%2710%27%2C%2712%27%2C%2713%27%2C%2715%27%2C%2716%27%2C%2717%27%2C%2718%27%2C%2719%27%2C%2720%27%2C%2721%27%2C%2722%27%2C%2723%27%2C%2724%27%2C%2725%27%2C%2726%27%2C%2727%27%2C%2728%27%2C%2729%27%2C%2730%27%2C%2731%27%2C%2732%27%2C%2733%27%2C%2734%27%2C%2735%27%2C%2736%27%2C%2737%27%2C%2738%27%2C%2739%27%2C%2740%27%2C%2741%27%2C%2742%27%2C%2744%27%2C%2745%27%2C%2746%27%2C%2747%27%2C%2748%27%2C%2749%27%2C%2750%27%2C%2751%27%2C%2753%27%2C%2754%27%2C%2755%27%2C%2756%27%29+AND+CD119+%3C%3E+%27ZZ%27&returnCountOnly=true&returnGeometry=false&f=json",
+        "fetchedAt": "2026-09-27T06:20:02+00:00",
+        "sha256": "a121e7820ee68124bae4a428e1175a262b72569525a0e8f7b1cd0b0621a44d93"
+      }
+    ],
+    "layer": {
+      "id": 4,
+      "name": "119th Congressional Districts",
+      "group": "BAS 2026"
+    },
+    "stateFilterField": "STATE",
+    "stateCount": 50,
+    "districtFeatureCount": 438,
+    "representedDistrictCount": 435,
+    "unassignedAreaCount": 3
+  },
+  "failures": []
+}

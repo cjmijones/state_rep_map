@@ -1,0 +1,4430 @@
+{
+  "source": {
+    "url": "https://results.vote.wa.gov/results/20241105/export/20241105_AllState.csv",
+    "fetchedAt": "2026-09-27T06:16:06.568458+00:00",
+    "fixturePath": null,
+    "importedAt": "2026-09-27T06:16:06.577531+00:00",
+    "sha256": "0eb34a759cc9944730ea31e1df7b7a0a93445bd096adc6f08ec4fd392de4ad20"
+  },
+  "status": "historical export; certification not inferred from file",
+  "contests": [
+    {
+      "id": "WA-2024-11-05-state_house-001-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "001",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 1 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Davina Duerr",
+          "party": "(Prefers Democratic Party)",
+          "votes": 55168,
+          "percentage": 69.18
+        },
+        {
+          "name": "Mark Davies",
+          "party": "(Prefers Republican Party)",
+          "votes": 24467,
+          "percentage": 30.68
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 106,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-001-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "001",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 1 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Shelley Kloba",
+          "party": "(Prefers Democratic Party)",
+          "votes": 59587,
+          "percentage": 96.15
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2388,
+          "percentage": 3.85
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-002-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "002",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 2 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Andrew Barkis",
+          "party": "(Prefers Republican Party)",
+          "votes": 59179,
+          "percentage": 95.24
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2958,
+          "percentage": 4.76
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-002-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "002",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 2 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Matt Marshall",
+          "party": "(Prefers Republican Party)",
+          "votes": 37267,
+          "percentage": 55.4
+        },
+        {
+          "name": "John Snaza",
+          "party": "(Prefers Republican Party)",
+          "votes": 27928,
+          "percentage": 41.51
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2079,
+          "percentage": 3.09
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-003-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "003",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 3 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Natasha Hill",
+          "party": "(Prefers Democratic Party)",
+          "votes": 43735,
+          "percentage": 58.64
+        },
+        {
+          "name": "Tony Kiepe",
+          "party": "(Prefers Republican Party)",
+          "votes": 30658,
+          "percentage": 41.11
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 190,
+          "percentage": 0.25
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-003-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "003",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 3 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Timm Ormsby",
+          "party": "(Prefers Democratic Party)",
+          "votes": 53667,
+          "percentage": 92.76
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 4190,
+          "percentage": 7.24
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-004-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "004",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 4 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Suzanne Schmidt",
+          "party": "(Prefers Republican Party)",
+          "votes": 54792,
+          "percentage": 68.36
+        },
+        {
+          "name": "Kristopher Pockell",
+          "party": "(States No Party Preference)",
+          "votes": 24817,
+          "percentage": 30.96
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 545,
+          "percentage": 0.68
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-004-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "004",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 4 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Rob Chase",
+          "party": "(Prefers Republican Party)",
+          "votes": 52902,
+          "percentage": 63.54
+        },
+        {
+          "name": "Ted Cummings",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30208,
+          "percentage": 36.28
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 148,
+          "percentage": 0.18
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-005-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "005",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 5 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Victoria Hunt",
+          "party": "(Prefers Democratic Party)",
+          "votes": 45999,
+          "percentage": 54.05
+        },
+        {
+          "name": "Mark Hargrove",
+          "party": "(Prefers Republican Party)",
+          "votes": 39039,
+          "percentage": 45.87
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 64,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-005-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "005",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 5 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Lisa Callan",
+          "party": "(Prefers Democratic Party)",
+          "votes": 47392,
+          "percentage": 55.8
+        },
+        {
+          "name": "Patrick Peacock",
+          "party": "(Prefers Republican Party)",
+          "votes": 37474,
+          "percentage": 44.12
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 70,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-006-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "006",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 6 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mike Volz",
+          "party": "(Prefers Republican Party)",
+          "votes": 47492,
+          "percentage": 62.26
+        },
+        {
+          "name": "Steven McCray II",
+          "party": "(Prefers Democratic Party)",
+          "votes": 28657,
+          "percentage": 37.57
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 130,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-006-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "006",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 6 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jenny Graham",
+          "party": "(Prefers Republican Party)",
+          "votes": 45958,
+          "percentage": 60.33
+        },
+        {
+          "name": "Michaela Kelso",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30093,
+          "percentage": 39.5
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 132,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-007-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "007",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 7 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Andrew Engell",
+          "party": "(Prefers Republican Party)",
+          "votes": 48785,
+          "percentage": 63.36
+        },
+        {
+          "name": "Soo Ing-Moody",
+          "party": "(Prefers Republican Party)",
+          "votes": 27496,
+          "percentage": 35.71
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 715,
+          "percentage": 0.93
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-007-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "007",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 7 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Hunter Abell",
+          "party": "(Prefers Republican Party)",
+          "votes": 58071,
+          "percentage": 70.72
+        },
+        {
+          "name": "Paul &quot;Rocky&quot; Dean",
+          "party": "(Prefers Democratic Party)",
+          "votes": 23929,
+          "percentage": 29.14
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 119,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-008-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "008",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 8 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Stephanie Barnard",
+          "party": "(Prefers Republican Party)",
+          "votes": 58288,
+          "percentage": 97.46
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1519,
+          "percentage": 2.54
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-008-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "008",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 8 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "April Connors",
+          "party": "(Prefers Republican Party)",
+          "votes": 51164,
+          "percentage": 70.44
+        },
+        {
+          "name": "John Christenson",
+          "party": "(Prefers Democratic Party)",
+          "votes": 21360,
+          "percentage": 29.41
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 114,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-009-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "009",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 9 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mary Dye",
+          "party": "(Prefers GOP Party)",
+          "votes": 50468,
+          "percentage": 64.88
+        },
+        {
+          "name": "Patrick Miller",
+          "party": "(Prefers Democratic Party)",
+          "votes": 27092,
+          "percentage": 34.83
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 225,
+          "percentage": 0.29
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-009-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "009",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 9 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Joe Schmick",
+          "party": "(Prefers Republican Party)",
+          "votes": 50211,
+          "percentage": 63.92
+        },
+        {
+          "name": "Pam Kohlmeier",
+          "party": "(Prefers Democratic Party)",
+          "votes": 28236,
+          "percentage": 35.94
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 109,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-010-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "010",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 10 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Clyde Shavers",
+          "party": "(Prefers Democratic Party)",
+          "votes": 47473,
+          "percentage": 53.21
+        },
+        {
+          "name": "Carrie R. Kennedy",
+          "party": "(Prefers Republican Party)",
+          "votes": 41578,
+          "percentage": 46.6
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 172,
+          "percentage": 0.19
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-010-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "010",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 10 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Dave Paul",
+          "party": "(Prefers Democratic Party)",
+          "votes": 47826,
+          "percentage": 53.69
+        },
+        {
+          "name": "Gary Wray",
+          "party": "(Prefers Republican Party)",
+          "votes": 41137,
+          "percentage": 46.18
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 118,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-011-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "011",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 11 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "David Hackney",
+          "party": "(Prefers Democratic Party)",
+          "votes": 46438,
+          "percentage": 95.91
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1978,
+          "percentage": 4.09
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-011-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "011",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 11 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Steve Bergquist",
+          "party": "(Prefers Democratic Party)",
+          "votes": 43389,
+          "percentage": 76.88
+        },
+        {
+          "name": "Justin Greywolf",
+          "party": "(Prefers Libertarian Party)",
+          "votes": 12508,
+          "percentage": 22.16
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 541,
+          "percentage": 0.96
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-012-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "012",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 12 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Brian Burnett",
+          "party": "(Prefers Republican Party)",
+          "votes": 44318,
+          "percentage": 53.26
+        },
+        {
+          "name": "Heather Koellen",
+          "party": "(Prefers Democratic Party)",
+          "votes": 38800,
+          "percentage": 46.63
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 92,
+          "percentage": 0.11
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-012-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "012",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 12 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mike Steele",
+          "party": "(Prefers Republican Party)",
+          "votes": 44400,
+          "percentage": 61.74
+        },
+        {
+          "name": "Daniel Scott",
+          "party": "(Prefers Republican Party)",
+          "votes": 25741,
+          "percentage": 35.8
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1771,
+          "percentage": 2.46
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-013-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "013",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 13 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Tom Dent",
+          "party": "(Prefers Republican Party)",
+          "votes": 51493,
+          "percentage": 97.34
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1406,
+          "percentage": 2.66
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-013-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "013",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 13 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Alex Ybarra",
+          "party": "(Prefers Republican Party)",
+          "votes": 51012,
+          "percentage": 97.68
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1210,
+          "percentage": 2.32
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-014-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "014",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 14 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Gloria Mendoza",
+          "party": "(Prefers Republican Party)",
+          "votes": 18263,
+          "percentage": 53.92
+        },
+        {
+          "name": "Chelsea Dimas",
+          "party": "(Prefers Democratic Party)",
+          "votes": 15418,
+          "percentage": 45.52
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 189,
+          "percentage": 0.56
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-014-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "014",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 14 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Deb Manjarrez",
+          "party": "(Prefers Republican Party)",
+          "votes": 17188,
+          "percentage": 50.67
+        },
+        {
+          "name": "Ana Ruiz Kennedy",
+          "party": "(Prefers Democratic Party)",
+          "votes": 16620,
+          "percentage": 49.0
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 113,
+          "percentage": 0.33
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-015-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "015",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 15 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Chris Corry",
+          "party": "(Prefers Republican Party)",
+          "votes": 46438,
+          "percentage": 70.65
+        },
+        {
+          "name": "Chase Foster",
+          "party": "(States No Party Preference)",
+          "votes": 18736,
+          "percentage": 28.51
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 553,
+          "percentage": 0.84
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-015-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "015",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 15 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jeremie Dufault",
+          "party": "(Prefers Republican Party)",
+          "votes": 44514,
+          "percentage": 70.72
+        },
+        {
+          "name": "Rich Bright",
+          "party": "(Prefers Republican Party)",
+          "votes": 17035,
+          "percentage": 27.07
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1391,
+          "percentage": 2.21
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-016-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "016",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 16 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mark Klicker",
+          "party": "(Prefers Republican Party)",
+          "votes": 45890,
+          "percentage": 64.49
+        },
+        {
+          "name": "Linda Gunshefski",
+          "party": "(Prefers Democratic Party)",
+          "votes": 25232,
+          "percentage": 35.46
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 35,
+          "percentage": 0.05
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-016-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "016",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 16 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Skyler Rude",
+          "party": "(Prefers Republican Party)",
+          "votes": 46596,
+          "percentage": 65.83
+        },
+        {
+          "name": "Craig R Woodard",
+          "party": "(Prefers Democratic Party)",
+          "votes": 24145,
+          "percentage": 34.11
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 40,
+          "percentage": 0.06
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-017-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "017",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 17 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Kevin Waters",
+          "party": "(Prefers Republican Party)",
+          "votes": 55952,
+          "percentage": 93.26
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 4045,
+          "percentage": 6.74
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-017-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "017",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 17 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "David Stuebe",
+          "party": "(Prefers Republican Party)",
+          "votes": 43022,
+          "percentage": 50.4
+        },
+        {
+          "name": "Terri Niles",
+          "party": "(Prefers Democratic Party)",
+          "votes": 42195,
+          "percentage": 49.43
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 148,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-018-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "018",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 18 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Stephanie McClintock",
+          "party": "(Prefers Republican Party)",
+          "votes": 46622,
+          "percentage": 55.65
+        },
+        {
+          "name": "Deken Letinich",
+          "party": "(Prefers Democratic Party)",
+          "votes": 37053,
+          "percentage": 44.23
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 100,
+          "percentage": 0.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-018-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "018",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 18 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "John Ley",
+          "party": "(Prefers Republican Party)",
+          "votes": 42603,
+          "percentage": 50.87
+        },
+        {
+          "name": "John Zingale",
+          "party": "(Prefers Democratic Party)",
+          "votes": 40995,
+          "percentage": 48.95
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 150,
+          "percentage": 0.18
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-019-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "019",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 19 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jim Walsh",
+          "party": "(Prefers Republican Party)",
+          "votes": 48544,
+          "percentage": 60.14
+        },
+        {
+          "name": "Mike Coverdale",
+          "party": "(Prefers Democratic Party)",
+          "votes": 32094,
+          "percentage": 39.76
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 76,
+          "percentage": 0.09
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-019-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "019",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 19 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Joel McEntire",
+          "party": "(Prefers Republican Party)",
+          "votes": 49665,
+          "percentage": 62.17
+        },
+        {
+          "name": "Terry Carlson",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30141,
+          "percentage": 37.73
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 77,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-020-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "020",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 20 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Peter Abbarno",
+          "party": "(Prefers Republican Party)",
+          "votes": 67633,
+          "percentage": 87.01
+        },
+        {
+          "name": "Melvin Kaleolani Apana",
+          "party": "(Prefers Culture Republican Party)",
+          "votes": 8295,
+          "percentage": 10.67
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1799,
+          "percentage": 2.31
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-020-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "020",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 20 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Ed Orcutt",
+          "party": "(Prefers GOP Party)",
+          "votes": 66170,
+          "percentage": 96.65
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2293,
+          "percentage": 3.35
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-021-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "021",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 21 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Strom Peterson",
+          "party": "(Prefers Democratic Party)",
+          "votes": 46705,
+          "percentage": 66.69
+        },
+        {
+          "name": "Riaz Khan",
+          "party": "(Prefers Republican Party)",
+          "votes": 23156,
+          "percentage": 33.07
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 169,
+          "percentage": 0.24
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-021-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "021",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 21 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Lillian Ortiz-Self",
+          "party": "(Prefers Democratic Party)",
+          "votes": 46422,
+          "percentage": 67.13
+        },
+        {
+          "name": "Kristina Mitchell",
+          "party": "(Prefers Conservative Party)",
+          "votes": 22579,
+          "percentage": 32.65
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 156,
+          "percentage": 0.23
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-022-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "022",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 22 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Beth Doglio",
+          "party": "(Prefers Democratic Party)",
+          "votes": 56646,
+          "percentage": 69.6
+        },
+        {
+          "name": "Steve Owens",
+          "party": "(States No Party Preference)",
+          "votes": 24229,
+          "percentage": 29.77
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 510,
+          "percentage": 0.63
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-022-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "022",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 22 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Lisa Parshley",
+          "party": "(Prefers Democratic Party)",
+          "votes": 46932,
+          "percentage": 62.41
+        },
+        {
+          "name": "Syd Locke",
+          "party": "(Prefers Democratic Party)",
+          "votes": 26183,
+          "percentage": 34.82
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2090,
+          "percentage": 2.78
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-023-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "023",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 23 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Tarra Simmons",
+          "party": "(Prefers Democratic Party)",
+          "votes": 53928,
+          "percentage": 62.95
+        },
+        {
+          "name": "Kurt Robertson",
+          "party": "(Prefers Republican Party)",
+          "votes": 31609,
+          "percentage": 36.9
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 135,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-023-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "023",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 23 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Greg Nance",
+          "party": "(Prefers Democratic Party)",
+          "votes": 56894,
+          "percentage": 65.81
+        },
+        {
+          "name": "Jamie Miles",
+          "party": "(Prefers Republican Party)",
+          "votes": 29439,
+          "percentage": 34.05
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 116,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-024-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "024",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 24 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Adam Bernbaum",
+          "party": "(Prefers Democratic Party)",
+          "votes": 52007,
+          "percentage": 54.92
+        },
+        {
+          "name": "Matthew (Matt) Roberson",
+          "party": "(Prefers Republican Party)",
+          "votes": 42555,
+          "percentage": 44.94
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 132,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-024-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "024",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 24 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Steve Tharinger",
+          "party": "(Prefers Democratic Party)",
+          "votes": 52481,
+          "percentage": 55.33
+        },
+        {
+          "name": "Terry Roberts",
+          "party": "(Prefers Republican Party)",
+          "votes": 42265,
+          "percentage": 44.56
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 108,
+          "percentage": 0.11
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-025-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "025",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 25 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Michael Keaton",
+          "party": "(Prefers Republican Party)",
+          "votes": 40458,
+          "percentage": 55.93
+        },
+        {
+          "name": "Cameron Severns",
+          "party": "(Prefers Democratic Party)",
+          "votes": 31833,
+          "percentage": 44.01
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 41,
+          "percentage": 0.06
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-025-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "025",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 25 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Cyndy Jacobsen",
+          "party": "(Prefers Republican Party)",
+          "votes": 40199,
+          "percentage": 55.73
+        },
+        {
+          "name": "Shellie Willis",
+          "party": "(Prefers Democratic Party)",
+          "votes": 31888,
+          "percentage": 44.2
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 51,
+          "percentage": 0.07
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-026-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "026",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 26 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Adison Richards",
+          "party": "(Prefers Democratic Party)",
+          "votes": 46833,
+          "percentage": 51.77
+        },
+        {
+          "name": "Jesse L. Young",
+          "party": "(Prefers Republican Party)",
+          "votes": 43503,
+          "percentage": 48.09
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 129,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-026-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "026",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 26 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Michelle Caldier",
+          "party": "(Prefers Republican Party)",
+          "votes": 49086,
+          "percentage": 54.6
+        },
+        {
+          "name": "Tiffiny Mitchell",
+          "party": "(Prefers Democratic Party)",
+          "votes": 40636,
+          "percentage": 45.2
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 187,
+          "percentage": 0.21
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-027-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "027",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 27 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Laurie Jinkins",
+          "party": "(Prefers Democratic Party)",
+          "votes": 51628,
+          "percentage": 71.65
+        },
+        {
+          "name": "Ken Paulson",
+          "party": "(Prefers Republican Party)",
+          "votes": 20301,
+          "percentage": 28.18
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 122,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-027-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "027",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 27 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jake Fey",
+          "party": "(Prefers Democratic Party)",
+          "votes": 49311,
+          "percentage": 75.46
+        },
+        {
+          "name": "Devin Rydel Kelly",
+          "party": "(Prefers Democratic Party)",
+          "votes": 14825,
+          "percentage": 22.69
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1210,
+          "percentage": 1.85
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-028-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "028",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 28 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mari Leavitt",
+          "party": "(Prefers Democratic Party)",
+          "votes": 34629,
+          "percentage": 58.44
+        },
+        {
+          "name": "Gabe Sachwitz",
+          "party": "(Prefers Republican Party)",
+          "votes": 24549,
+          "percentage": 41.43
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 75,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-028-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "028",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 28 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Dan Bronoske",
+          "party": "(Prefers Democratic Party)",
+          "votes": 34129,
+          "percentage": 57.88
+        },
+        {
+          "name": "Mark Herr",
+          "party": "(Prefers Republican Party)",
+          "votes": 24772,
+          "percentage": 42.01
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 66,
+          "percentage": 0.11
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-029-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "029",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 29 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Melanie Morgan",
+          "party": "(Prefers Democratic Party)",
+          "votes": 31993,
+          "percentage": 68.62
+        },
+        {
+          "name": "Richard Miller",
+          "party": "(Prefers Democratic Party)",
+          "votes": 13152,
+          "percentage": 28.21
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1478,
+          "percentage": 3.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-029-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "029",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 29 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Sharlett Mena",
+          "party": "(Prefers Democratic Party)",
+          "votes": 39333,
+          "percentage": 93.79
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2604,
+          "percentage": 6.21
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-030-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "030",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 30 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jamila E. Taylor",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30723,
+          "percentage": 56.15
+        },
+        {
+          "name": "Melissa Hamilton",
+          "party": "(Prefers Republican Party)",
+          "votes": 23924,
+          "percentage": 43.73
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 67,
+          "percentage": 0.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-030-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "030",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 30 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Kristine M. Reeves",
+          "party": "(Prefers Democratic Party)",
+          "votes": 32043,
+          "percentage": 58.7
+        },
+        {
+          "name": "Quentin Morris",
+          "party": "(Prefers Republican Party)",
+          "votes": 22491,
+          "percentage": 41.2
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 56,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-031-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "031",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 31 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Drew Stokesbary",
+          "party": "(Prefers Republican Party)",
+          "votes": 51651,
+          "percentage": 63.62
+        },
+        {
+          "name": "Sara Sutterfield",
+          "party": "(Prefers Democratic Party)",
+          "votes": 29451,
+          "percentage": 36.28
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 79,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-031-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "031",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 31 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Joshua Penner",
+          "party": "(Prefers Republican Party)",
+          "votes": 49335,
+          "percentage": 61.08
+        },
+        {
+          "name": "Brian L. Gunn",
+          "party": "(Prefers Democratic Party)",
+          "votes": 31338,
+          "percentage": 38.8
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 96,
+          "percentage": 0.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-032-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "032",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 32 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Cindy Ryu",
+          "party": "(Prefers Democratic Party)",
+          "votes": 58021,
+          "percentage": 74.16
+        },
+        {
+          "name": "Lisa Rezac",
+          "party": "(Prefers Republican Party)",
+          "votes": 20084,
+          "percentage": 25.67
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 128,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-032-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "032",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 32 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Lauren Davis",
+          "party": "(Prefers Democratic Party)",
+          "votes": 58169,
+          "percentage": 74.63
+        },
+        {
+          "name": "Lori Theis",
+          "party": "(Prefers Republican Party)",
+          "votes": 19661,
+          "percentage": 25.23
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 110,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-033-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "033",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 33 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Tina L. Orwall",
+          "party": "(Prefers Democratic Party)",
+          "votes": 38898,
+          "percentage": 68.99
+        },
+        {
+          "name": "George Richter",
+          "party": "(Prefers Republican Party)",
+          "votes": 17423,
+          "percentage": 30.9
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 60,
+          "percentage": 0.11
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-033-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "033",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 33 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mia Su-Ling Gregerson",
+          "party": "(Prefers Democratic Party)",
+          "votes": 38152,
+          "percentage": 70.76
+        },
+        {
+          "name": "Casey Esmond",
+          "party": "(States No Party Preference)",
+          "votes": 15454,
+          "percentage": 28.66
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 310,
+          "percentage": 0.57
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-034-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "034",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 34 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Emily Alvarado",
+          "party": "(Prefers Democratic Party)",
+          "votes": 70218,
+          "percentage": 84.88
+        },
+        {
+          "name": "Kimberly M. Cloud",
+          "party": "(Prefers Republican Party)",
+          "votes": 12362,
+          "percentage": 14.94
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 143,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-034-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "034",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 34 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Joe Fitzgibbon",
+          "party": "(Prefers Democratic Party)",
+          "votes": 69340,
+          "percentage": 83.66
+        },
+        {
+          "name": "Jolie Lansdowne",
+          "party": "(Prefers Republican Party)",
+          "votes": 13446,
+          "percentage": 16.22
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 96,
+          "percentage": 0.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-035-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "035",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 35 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Dan Griffey",
+          "party": "(Prefers Republican Party)",
+          "votes": 65027,
+          "percentage": 94.75
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 3604,
+          "percentage": 5.25
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-035-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "035",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 35 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Travis Couture",
+          "party": "(Prefers Republican Party)",
+          "votes": 51999,
+          "percentage": 58.58
+        },
+        {
+          "name": "James DeHart",
+          "party": "(Prefers Democratic Party)",
+          "votes": 36664,
+          "percentage": 41.31
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 97,
+          "percentage": 0.11
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-036-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "036",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 36 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Julia Grant Reed",
+          "party": "(Prefers Democratic Party)",
+          "votes": 77616,
+          "percentage": 98.53
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1157,
+          "percentage": 1.47
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-036-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "036",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 36 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Liz Berry",
+          "party": "(Prefers Democratic Party)",
+          "votes": 82201,
+          "percentage": 88.78
+        },
+        {
+          "name": "Victoria Palmer",
+          "party": "(Prefers Republican Party)",
+          "votes": 10277,
+          "percentage": 11.1
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 113,
+          "percentage": 0.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-037-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "037",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 37 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Sharon Tomiko Santos",
+          "party": "(Prefers Democratic Party)",
+          "votes": 63074,
+          "percentage": 98.28
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1101,
+          "percentage": 1.72
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-037-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "037",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 37 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Chipalo Street",
+          "party": "(Prefers Democratic Party)",
+          "votes": 65363,
+          "percentage": 90.99
+        },
+        {
+          "name": "Matt McCally",
+          "party": "(Prefers Libertarian Party)",
+          "votes": 6115,
+          "percentage": 8.51
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 355,
+          "percentage": 0.49
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-038-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "038",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 38 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Julio Cortes",
+          "party": "(Prefers Democratic Party)",
+          "votes": 41335,
+          "percentage": 71.12
+        },
+        {
+          "name": "Annie Fitzgerald",
+          "party": "(Prefers Democratic Party)",
+          "votes": 14810,
+          "percentage": 25.48
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1975,
+          "percentage": 3.4
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-038-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "038",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 38 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mary Fosse",
+          "party": "(Prefers Democratic Party)",
+          "votes": 39209,
+          "percentage": 59.46
+        },
+        {
+          "name": "Marnie Claywell",
+          "party": "(Prefers Republican Party)",
+          "votes": 26627,
+          "percentage": 40.38
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 106,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-039-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "039",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 39 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Sam Low",
+          "party": "(Prefers Republican Party)",
+          "votes": 44515,
+          "percentage": 58.9
+        },
+        {
+          "name": "Robert J. Sutherland",
+          "party": "(Prefers Republican Party)",
+          "votes": 29909,
+          "percentage": 39.58
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1147,
+          "percentage": 1.52
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-039-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "039",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 39 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Carolyn Eslick",
+          "party": "(Prefers Republican Party)",
+          "votes": 45612,
+          "percentage": 62.57
+        },
+        {
+          "name": "Jackie Huey",
+          "party": "(Prefers Republican Party)",
+          "votes": 25802,
+          "percentage": 35.4
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1479,
+          "percentage": 2.03
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-040-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "040",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 40 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Debra Lekanoff",
+          "party": "(Prefers Democratic Party)",
+          "votes": 63993,
+          "percentage": 96.15
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2565,
+          "percentage": 3.85
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-040-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "040",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 40 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Alex Ramel",
+          "party": "(Prefers Democratic Party)",
+          "votes": 63215,
+          "percentage": 95.72
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2828,
+          "percentage": 4.28
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-041-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "041",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 41 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Tana Senn",
+          "party": "(Prefers Democratic Party)",
+          "votes": 50823,
+          "percentage": 67.54
+        },
+        {
+          "name": "Emily Tadlock",
+          "party": "(Prefers Republican Party)",
+          "votes": 24305,
+          "percentage": 32.3
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 124,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-041-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "041",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 41 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "My-Linh Thai",
+          "party": "(Prefers Democratic Party)",
+          "votes": 49577,
+          "percentage": 65.69
+        },
+        {
+          "name": "Al Rosenthal",
+          "party": "(Prefers Republican Party)",
+          "votes": 25821,
+          "percentage": 34.21
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 72,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-042-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "042",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 42 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Alicia Rule",
+          "party": "(Prefers Democratic Party)",
+          "votes": 49802,
+          "percentage": 55.35
+        },
+        {
+          "name": "Raymond Pelletti",
+          "party": "(Prefers Republican Party)",
+          "votes": 40090,
+          "percentage": 44.56
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 86,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-042-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "042",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 42 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Joe Timmons",
+          "party": "(Prefers Democratic Party)",
+          "votes": 47947,
+          "percentage": 53.33
+        },
+        {
+          "name": "Kamal Bhachu",
+          "party": "(Prefers Republican Party)",
+          "votes": 41894,
+          "percentage": 46.59
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 72,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-043-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "043",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 43 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Nicole Macri",
+          "party": "(Prefers Democratic Party)",
+          "votes": 65596,
+          "percentage": 98.48
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1015,
+          "percentage": 1.52
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-043-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "043",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 43 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Shaun Scott",
+          "party": "(Prefers Democratic Party)",
+          "votes": 49990,
+          "percentage": 68.43
+        },
+        {
+          "name": "Andrea Suarez",
+          "party": "(Prefers Democratic Party)",
+          "votes": 22506,
+          "percentage": 30.81
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 554,
+          "percentage": 0.76
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-044-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "044",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 44 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Brandy Donaghy",
+          "party": "(Prefers Democratic Party)",
+          "votes": 51557,
+          "percentage": 93.59
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 3531,
+          "percentage": 6.41
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-044-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "044",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 44 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "April Berg",
+          "party": "(Prefers Democratic Party)",
+          "votes": 43155,
+          "percentage": 57.59
+        },
+        {
+          "name": "Sam Sim",
+          "party": "(Prefers Republican Party)",
+          "votes": 31714,
+          "percentage": 42.32
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 62,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-045-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "045",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 45 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Roger Goodman",
+          "party": "(Prefers Democratic Party)",
+          "votes": 58368,
+          "percentage": 96.01
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2424,
+          "percentage": 3.99
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-045-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "045",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 45 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Larry Springer",
+          "party": "(Prefers Democratic Party)",
+          "votes": 38347,
+          "percentage": 55.56
+        },
+        {
+          "name": "Melissa Demyan",
+          "party": "(Prefers Democratic Party)",
+          "votes": 29191,
+          "percentage": 42.3
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1478,
+          "percentage": 2.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-046-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "046",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 46 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Gerry Pollet",
+          "party": "(Prefers Democratic Party)",
+          "votes": 72727,
+          "percentage": 87.42
+        },
+        {
+          "name": "Beth Daranciang",
+          "party": "(Prefers Republican Party)",
+          "votes": 10353,
+          "percentage": 12.44
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 117,
+          "percentage": 0.14
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-046-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "046",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 46 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Darya Farivar",
+          "party": "(Prefers Democratic Party)",
+          "votes": 70952,
+          "percentage": 86.49
+        },
+        {
+          "name": "Simone Barron",
+          "party": "(Prefers Republican Party)",
+          "votes": 10832,
+          "percentage": 13.2
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 248,
+          "percentage": 0.3
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-047-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "047",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 47 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Debra Jean Entenman",
+          "party": "(Prefers Democratic Party)",
+          "votes": 35528,
+          "percentage": 56.26
+        },
+        {
+          "name": "Kyle Lyebyedyev",
+          "party": "(Prefers Republican Party)",
+          "votes": 27513,
+          "percentage": 43.57
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 106,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-047-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "047",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 47 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Chris Stearns",
+          "party": "(Prefers Democratic Party)",
+          "votes": 35085,
+          "percentage": 55.64
+        },
+        {
+          "name": "Ted Cooke",
+          "party": "(Prefers Republican Party)",
+          "votes": 27870,
+          "percentage": 44.2
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 101,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-048-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "048",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "Legislative District 48 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Vandana Slatter",
+          "party": "(Prefers Democratic Party)",
+          "votes": 39645,
+          "percentage": 68.27
+        },
+        {
+          "name": "Lynn Trinh",
+          "party": "(Prefers Republican Party)",
+          "votes": 18330,
+          "percentage": 31.57
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 94,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-048-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "048",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "Legislative District 48 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Amy Walen",
+          "party": "(Prefers Democratic Party)",
+          "votes": 43664,
+          "percentage": 95.74
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1945,
+          "percentage": 4.26
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-049-pos1",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "049",
+      "seatPosition": "1",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 49 - State Representative Pos. 1",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Sharon Wylie",
+          "party": "(Prefers Democratic Party)",
+          "votes": 43234,
+          "percentage": 63.47
+        },
+        {
+          "name": "Brett Graham",
+          "party": "(Prefers Republican Party)",
+          "votes": 24741,
+          "percentage": 36.32
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 139,
+          "percentage": 0.2
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_house-049-pos2",
+      "state": "WA",
+      "chamber": "state_house",
+      "district": "049",
+      "seatPosition": "2",
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 49 - State Representative Pos. 2",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Monica Jurado Stonier",
+          "party": "(Prefers Democratic Party)",
+          "votes": 42950,
+          "percentage": 63.07
+        },
+        {
+          "name": "Russell Barber",
+          "party": "(Prefers Republican Party)",
+          "votes": 24997,
+          "percentage": 36.71
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 152,
+          "percentage": 0.22
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-001",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "001",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 1 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Derek Stanford",
+          "party": "(Prefers Democratic Party)",
+          "votes": 60591,
+          "percentage": 96.05
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2490,
+          "percentage": 3.95
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-002",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "002",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 2 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jim McCune",
+          "party": "(Prefers Republican Party)",
+          "votes": 47997,
+          "percentage": 63.05
+        },
+        {
+          "name": "Erasmo Ruiz Gonzalez",
+          "party": "(Prefers Democratic Party)",
+          "votes": 28016,
+          "percentage": 36.8
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 118,
+          "percentage": 0.15
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-003",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "003",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 3 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Marcus Riccelli",
+          "party": "(Prefers Democratic Party)",
+          "votes": 45497,
+          "percentage": 60.54
+        },
+        {
+          "name": "Jim Wilson",
+          "party": "(Prefers Republican Party)",
+          "votes": 29555,
+          "percentage": 39.33
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 95,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-004",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "004",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 4 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Leonard Christian",
+          "party": "(Prefers Republican Party)",
+          "votes": 53660,
+          "percentage": 64.3
+        },
+        {
+          "name": "Miguel Valencia",
+          "party": "(Prefers Democratic Party)",
+          "votes": 29666,
+          "percentage": 35.55
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 131,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-005",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "005",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 5 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Bill Ramos",
+          "party": "(Prefers Democratic Party)",
+          "votes": 44393,
+          "percentage": 51.97
+        },
+        {
+          "name": "Chad Magendanz",
+          "party": "(Prefers Republican Party)",
+          "votes": 40966,
+          "percentage": 47.96
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 66,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-009",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "009",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 9 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mark G. Schoesler",
+          "party": "(Prefers GOP Party)",
+          "votes": 57974,
+          "percentage": 95.13
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2967,
+          "percentage": 4.87
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-010",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "010",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 10 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Ron Muzzall",
+          "party": "(Prefers Republican Party)",
+          "votes": 45889,
+          "percentage": 50.91
+        },
+        {
+          "name": "Janet St Clair",
+          "party": "(Prefers Democratic Party)",
+          "votes": 44105,
+          "percentage": 48.93
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 140,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-011",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "011",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 11 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Bob Hasegawa",
+          "party": "(Prefers Democratic Party)",
+          "votes": 47344,
+          "percentage": 95.88
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2036,
+          "percentage": 4.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-012",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "012",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 12 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Keith W. Goehner",
+          "party": "(Prefers Republican Party)",
+          "votes": 46550,
+          "percentage": 55.8
+        },
+        {
+          "name": "Jim Mayhew",
+          "party": "(Prefers Democratic Party)",
+          "votes": 36824,
+          "percentage": 44.14
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 50,
+          "percentage": 0.06
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-014",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "014",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 14 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Curtis King",
+          "party": "(Prefers Republican Party)",
+          "votes": 17762,
+          "percentage": 51.64
+        },
+        {
+          "name": "Maria Beltran",
+          "party": "(Prefers Democratic Party)",
+          "votes": 16543,
+          "percentage": 48.1
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 90,
+          "percentage": 0.26
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-016",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "016",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 16 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Perry Dozier",
+          "party": "(Prefers Republican Party)",
+          "votes": 45054,
+          "percentage": 63.36
+        },
+        {
+          "name": "Kari Isaacson",
+          "party": "(Prefers Democratic Party)",
+          "votes": 25998,
+          "percentage": 36.56
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 54,
+          "percentage": 0.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-017",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "017",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 17 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Paul Harris",
+          "party": "(Prefers Republican Party)",
+          "votes": 44034,
+          "percentage": 51.09
+        },
+        {
+          "name": "Marla Keethler",
+          "party": "(Prefers Democratic Party)",
+          "votes": 42019,
+          "percentage": 48.75
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 135,
+          "percentage": 0.16
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-018",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "018",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 18 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Adrian Cortes",
+          "party": "(Prefers Democratic Party)",
+          "votes": 42053,
+          "percentage": 49.99
+        },
+        {
+          "name": "Brad Benton",
+          "party": "(Prefers Republican Party)",
+          "votes": 41881,
+          "percentage": 49.79
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 189,
+          "percentage": 0.22
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-019",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "019",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 19 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jeff Wilson",
+          "party": "(Prefers Republican Party)",
+          "votes": 48920,
+          "percentage": 61.22
+        },
+        {
+          "name": "Andi Day",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30911,
+          "percentage": 38.68
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 74,
+          "percentage": 0.09
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-020",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "020",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 20 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "John Braun",
+          "party": "(Prefers Republican Party)",
+          "votes": 69172,
+          "percentage": 96.53
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 2490,
+          "percentage": 3.47
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-022",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "022",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 22 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Jessica Bateman",
+          "party": "(Prefers Democratic Party)",
+          "votes": 54904,
+          "percentage": 70.56
+        },
+        {
+          "name": "Bob Iyall",
+          "party": "(Prefers Democratic Party)",
+          "votes": 21294,
+          "percentage": 27.36
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1618,
+          "percentage": 2.08
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-023",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "023",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 23 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Drew Hansen",
+          "party": "(Prefers Democratic Party)",
+          "votes": 55388,
+          "percentage": 64.24
+        },
+        {
+          "name": "Lance Byrd",
+          "party": "(Prefers Republican Party)",
+          "votes": 30742,
+          "percentage": 35.66
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 89,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-024",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "024",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 24 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Mike Chapman",
+          "party": "(Prefers Democratic Party)",
+          "votes": 52108,
+          "percentage": 54.78
+        },
+        {
+          "name": "Marcia Kelbon",
+          "party": "(Prefers Republican Party)",
+          "votes": 42895,
+          "percentage": 45.09
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 120,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-025",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "025",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 25 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Chris Gildon",
+          "party": "(Prefers Republican Party)",
+          "votes": 41862,
+          "percentage": 57.72
+        },
+        {
+          "name": "Kenneth King",
+          "party": "(Prefers Democratic Party)",
+          "votes": 30595,
+          "percentage": 42.19
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 64,
+          "percentage": 0.09
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-027",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "027",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Legislative District 27 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Yasmin Trudeau",
+          "party": "(Prefers Democratic Party)",
+          "votes": 51943,
+          "percentage": 71.75
+        },
+        {
+          "name": "Carole Sue Braaten",
+          "party": "(Prefers Republican Party)",
+          "votes": 20327,
+          "percentage": 28.08
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 124,
+          "percentage": 0.17
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-028",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "028",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 28 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "T'wina Nobles",
+          "party": "(Prefers Democratic Party)",
+          "votes": 32194,
+          "percentage": 53.76
+        },
+        {
+          "name": "Maia Espinoza",
+          "party": "(Prefers Republican Party)",
+          "votes": 27605,
+          "percentage": 46.1
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 88,
+          "percentage": 0.15
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-039",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "039",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 39 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Keith L. Wagoner",
+          "party": "(Prefers Republican Party)",
+          "votes": 49809,
+          "percentage": 60.45
+        },
+        {
+          "name": "John Snow",
+          "party": "(Prefers Democratic Party)",
+          "votes": 32505,
+          "percentage": 39.45
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 83,
+          "percentage": 0.1
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-040",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "040",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 40 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Elizabeth (Liz) Lovelett",
+          "party": "(Prefers Democratic Party)",
+          "votes": 62064,
+          "percentage": 69.52
+        },
+        {
+          "name": "Charles Carrell",
+          "party": "(Prefers Republican Party)",
+          "votes": 27091,
+          "percentage": 30.35
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 118,
+          "percentage": 0.13
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-041",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "041",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 41 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Lisa Wellman",
+          "party": "(Prefers Democratic Party)",
+          "votes": 51903,
+          "percentage": 69.06
+        },
+        {
+          "name": "Jaskaran Singh Sarao",
+          "party": "(Prefers Republican Party)",
+          "votes": 23102,
+          "percentage": 30.74
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 155,
+          "percentage": 0.21
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-state_senate-049",
+      "state": "WA",
+      "chamber": "state_senate",
+      "district": "049",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "LEGISLATIVE DISTRICT 49 - State Senator",
+      "jurisdictionName": "Legislative",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Annette Cleveland",
+          "party": "(Prefers Democratic Party)",
+          "votes": 42161,
+          "percentage": 61.76
+        },
+        {
+          "name": "Lucia Worthington",
+          "party": "(Prefers Republican Party)",
+          "votes": 25936,
+          "percentage": 37.99
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 170,
+          "percentage": 0.25
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-01",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "01",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 1 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Suzan DelBene",
+          "party": "(Prefers Democratic Party)",
+          "votes": 227213,
+          "percentage": 63.0
+        },
+        {
+          "name": "Jeb Brewer",
+          "party": "(Prefers Republican Party)",
+          "votes": 132538,
+          "percentage": 36.75
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 907,
+          "percentage": 0.25
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-02",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "02",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 2 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Rick Larsen",
+          "party": "(Prefers Democratic Party)",
+          "votes": 263750,
+          "percentage": 63.83
+        },
+        {
+          "name": "Cody Hart",
+          "party": "(Prefers MAGA Republican Party)",
+          "votes": 148167,
+          "percentage": 35.86
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1303,
+          "percentage": 0.32
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-03",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "03",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "CONGRESSIONAL DISTRICT 3 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Marie Gluesenkamp Perez",
+          "party": "(Prefers Democratic Party)",
+          "votes": 215177,
+          "percentage": 51.74
+        },
+        {
+          "name": "Joe Kent",
+          "party": "(Prefers Republican Party)",
+          "votes": 199054,
+          "percentage": 47.86
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1673,
+          "percentage": 0.4
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-04",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "04",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 4 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Dan Newhouse",
+          "party": "(Prefers Republican Party)",
+          "votes": 153477,
+          "percentage": 52.02
+        },
+        {
+          "name": "Jerrod Sessler",
+          "party": "(Prefers Republican Party)",
+          "votes": 136175,
+          "percentage": 46.15
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 5400,
+          "percentage": 1.83
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-05",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "05",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "CONGRESSIONAL DISTRICT 5 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Michael Baumgartner",
+          "party": "(Prefers Republican Party)",
+          "votes": 240619,
+          "percentage": 60.57
+        },
+        {
+          "name": "Carmela Conroy",
+          "party": "(Prefers Democratic Party)",
+          "votes": 156074,
+          "percentage": 39.29
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 593,
+          "percentage": 0.15
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-06",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "06",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "CONGRESSIONAL DISTRICT 6 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Emily Randall",
+          "party": "(Prefers Democratic Party)",
+          "votes": 239687,
+          "percentage": 56.71
+        },
+        {
+          "name": "Drew C MacEwen",
+          "party": "(Prefers Republican Party)",
+          "votes": 182182,
+          "percentage": 43.11
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 753,
+          "percentage": 0.18
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-07",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "07",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 7 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Pramila Jayapal",
+          "party": "(Prefers Democratic Party)",
+          "votes": 352286,
+          "percentage": 83.91
+        },
+        {
+          "name": "Dan Alexander",
+          "party": "(Prefers Republican Party)",
+          "votes": 66220,
+          "percentage": 15.77
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1313,
+          "percentage": 0.31
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-08",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "08",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "CONGRESSIONAL DISTRICT 8 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Kim Schrier",
+          "party": "(Prefers Democratic Party)",
+          "votes": 224607,
+          "percentage": 53.96
+        },
+        {
+          "name": "Carmen Goers",
+          "party": "(Prefers Republican Party)",
+          "votes": 190675,
+          "percentage": 45.8
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 995,
+          "percentage": 0.24
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-09",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "09",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 9 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Adam Smith",
+          "party": "(Prefers Democratic Party)",
+          "votes": 182780,
+          "percentage": 65.44
+        },
+        {
+          "name": "Melissa Chaudhry",
+          "party": "(Prefers Democratic Party)",
+          "votes": 90601,
+          "percentage": 32.44
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 5917,
+          "percentage": 2.12
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_house-10",
+      "state": "WA",
+      "chamber": "us_house",
+      "district": "10",
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "Congressional District 10 - U.S. Representative",
+      "jurisdictionName": "Congressional",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Marilyn Strickland",
+          "party": "(Prefers Democratic Party)",
+          "votes": 203732,
+          "percentage": 58.54
+        },
+        {
+          "name": "Don Hewett",
+          "party": "(Prefers Republican Party)",
+          "votes": 143492,
+          "percentage": 41.23
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 820,
+          "percentage": 0.24
+        }
+      ]
+    },
+    {
+      "id": "WA-2024-11-05-us_senate-at-large",
+      "state": "WA",
+      "chamber": "us_senate",
+      "district": null,
+      "seatPosition": null,
+      "seatClass": null,
+      "sourceRace": "U.S. Senator",
+      "jurisdictionName": "United States",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": null,
+      "requiresBoundaryCrosswalk": true,
+      "candidates": [
+        {
+          "name": "Maria Cantwell",
+          "party": "(Prefers Democratic Party)",
+          "votes": 2252577,
+          "percentage": 59.09
+        },
+        {
+          "name": "Dr Raul Garcia",
+          "party": "(Prefers GOP Party)",
+          "votes": 1549187,
+          "percentage": 40.64
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 10627,
+          "percentage": 0.28
+        }
+      ]
+    }
+  ]
+}

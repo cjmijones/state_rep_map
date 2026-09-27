@@ -1,0 +1,30 @@
+{
+  "exampleOnly": true,
+  "description": "One manually checked poll release for schema exploration; this is not a complete or automatically refreshed polling feed.",
+  "checkedOn": "2026-09-26",
+  "sourceUrl": "https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/",
+  "pollster": "Emerson College Polling",
+  "sponsor": "Nexstar Media",
+  "office": "us-senate",
+  "state": "MI",
+  "electionYear": 2026,
+  "stage": "general",
+  "seatClass": null,
+  "fieldStart": "2026-09-12",
+  "fieldEnd": "2026-09-14",
+  "population": "likely voters",
+  "sampleSize": 1000,
+  "uncertainty": {
+    "kind": "credibility interval",
+    "reportedPercentagePoints": 3
+  },
+  "method": "Text-to-web and panel interviews",
+  "responses": [
+    {"label": "Abdul El-Sayed", "percentage": 48},
+    {"label": "Mike Rogers", "percentage": 46},
+    {"label": "Undecided", "percentage": 4}
+  ],
+  "responsesComplete": false,
+  "candidateIdsResolved": false,
+  "automatedRedistributionRightsReviewed": false
+}

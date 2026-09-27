@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2026-09-27T08:02:40+00:00",
+  "coverage": "Washington U.S. House, 2024 general election",
+  "boundaryPlanId": "US-CD119",
+  "boundarySourceUrl": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.119th_Congress.html",
+  "source": {
+    "url": "https://results.vote.wa.gov/results/20241105/export/20241105_AllState.csv",
+    "fetchedAt": "2026-09-27T08:02:40+00:00",
+    "fixturePath": null,
+    "importedAt": "2026-09-27T08:02:40.433531+00:00",
+    "sha256": "0eb34a759cc9944730ea31e1df7b7a0a93445bd096adc6f08ec4fd392de4ad20",
+    "exportPageUrl": "https://results.vote.wa.gov/results/20241105/export.html"
+  },
+  "status": "historical export; certification not inferred from file",
+  "contests": [
+    {
+      "geoid": "5301",
+      "district": "01",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Suzan DelBene",
+          "party": "(Prefers Democratic Party)",
+          "votes": 227213,
+          "percentage": 63.0
+        },
+        {
+          "name": "Jeb Brewer",
+          "party": "(Prefers Republican Party)",
+          "votes": 132538,
+          "percentage": 36.75
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 907,
+          "percentage": 0.25
+        }
+      ],
+      "totalVotes": 360658
+    },
+    {
+      "geoid": "5302",
+      "district": "02",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Rick Larsen",
+          "party": "(Prefers Democratic Party)",
+          "votes": 263750,
+          "percentage": 63.83
+        },
+        {
+          "name": "Cody Hart",
+          "party": "(Prefers MAGA Republican Party)",
+          "votes": 148167,
+          "percentage": 35.86
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1303,
+          "percentage": 0.32
+        }
+      ],
+      "totalVotes": 413220
+    },
+    {
+      "geoid": "5303",
+      "district": "03",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Marie Gluesenkamp Perez",
+          "party": "(Prefers Democratic Party)",
+          "votes": 215177,
+          "percentage": 51.74
+        },
+        {
+          "name": "Joe Kent",
+          "party": "(Prefers Republican Party)",
+          "votes": 199054,
+          "percentage": 47.86
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1673,
+          "percentage": 0.4
+        }
+      ],
+      "totalVotes": 415904
+    },
+    {
+      "geoid": "5304",
+      "district": "04",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Dan Newhouse",
+          "party": "(Prefers Republican Party)",
+          "votes": 153477,
+          "percentage": 52.02
+        },
+        {
+          "name": "Jerrod Sessler",
+          "party": "(Prefers Republican Party)",
+          "votes": 136175,
+          "percentage": 46.15
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 5400,
+          "percentage": 1.83
+        }
+      ],
+      "totalVotes": 295052
+    },
+    {
+      "geoid": "5305",
+      "district": "05",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Michael Baumgartner",
+          "party": "(Prefers Republican Party)",
+          "votes": 240619,
+          "percentage": 60.57
+        },
+        {
+          "name": "Carmela Conroy",
+          "party": "(Prefers Democratic Party)",
+          "votes": 156074,
+          "percentage": 39.29
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 593,
+          "percentage": 0.15
+        }
+      ],
+      "totalVotes": 397286
+    },
+    {
+      "geoid": "5306",
+      "district": "06",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Emily Randall",
+          "party": "(Prefers Democratic Party)",
+          "votes": 239687,
+          "percentage": 56.71
+        },
+        {
+          "name": "Drew C MacEwen",
+          "party": "(Prefers Republican Party)",
+          "votes": 182182,
+          "percentage": 43.11
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 753,
+          "percentage": 0.18
+        }
+      ],
+      "totalVotes": 422622
+    },
+    {
+      "geoid": "5307",
+      "district": "07",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Pramila Jayapal",
+          "party": "(Prefers Democratic Party)",
+          "votes": 352286,
+          "percentage": 83.91
+        },
+        {
+          "name": "Dan Alexander",
+          "party": "(Prefers Republican Party)",
+          "votes": 66220,
+          "percentage": 15.77
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 1313,
+          "percentage": 0.31
+        }
+      ],
+      "totalVotes": 419819
+    },
+    {
+      "geoid": "5308",
+      "district": "08",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Kim Schrier",
+          "party": "(Prefers Democratic Party)",
+          "votes": 224607,
+          "percentage": 53.96
+        },
+        {
+          "name": "Carmen Goers",
+          "party": "(Prefers Republican Party)",
+          "votes": 190675,
+          "percentage": 45.8
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 995,
+          "percentage": 0.24
+        }
+      ],
+      "totalVotes": 416277
+    },
+    {
+      "geoid": "5309",
+      "district": "09",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Adam Smith",
+          "party": "(Prefers Democratic Party)",
+          "votes": 182780,
+          "percentage": 65.44
+        },
+        {
+          "name": "Melissa Chaudhry",
+          "party": "(Prefers Democratic Party)",
+          "votes": 90601,
+          "percentage": 32.44
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 5917,
+          "percentage": 2.12
+        }
+      ],
+      "totalVotes": 279298
+    },
+    {
+      "geoid": "5310",
+      "district": "10",
+      "electionDate": "2024-11-05",
+      "stage": "general",
+      "boundaryPlanId": "US-CD119",
+      "candidates": [
+        {
+          "name": "Marilyn Strickland",
+          "party": "(Prefers Democratic Party)",
+          "votes": 203732,
+          "percentage": 58.54
+        },
+        {
+          "name": "Don Hewett",
+          "party": "(Prefers Republican Party)",
+          "votes": 143492,
+          "percentage": 41.23
+        },
+        {
+          "name": "WRITE-IN",
+          "party": "",
+          "votes": 820,
+          "percentage": 0.24
+        }
+      ],
+      "totalVotes": 348044
+    }
+  ]
+}

@@ -35,11 +35,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
+!state-rep-map-visualizationo/package-lock.json
 yarn.lock
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+state-rep-map-visualizationo/.playwright-cli/
+state-rep-map-visualizationo/public/tiles/
 
 # OS generated files
 .DS_Store
