@@ -65,6 +65,19 @@ try {
   const tile = await page.request.get(`${base}/api/archives/federal-senate.pmtiles`, { headers: { Range: "bytes=0-126" } });
   assert.equal(tile.status(), 206);
   assert.equal((await tile.body()).subarray(0, 7).toString(), "PMTiles");
+  // A pointer event can arrive while the style layer is unavailable during startup.
+  // Removing it here makes that timing window deterministic.
+  await page.evaluate(() => {
+    const map = window.__executivesMap;
+    map.removeLayer("governor-highlight");
+    map.removeLayer("governor-line");
+    map.removeLayer("governor-fill");
+  });
+  await page.mouse.move(canvasBox.x + 200, canvasBox.y + 200);
+  await page.mouse.click(canvasBox.x + 200, canvasBox.y + 200);
+  await page.waitForTimeout(100);
+  assert.equal(await page.locator(".map-status.error").count(), 0, "Missing governor layer should not become a persistent map error");
+  assert.ok(!errors.some((error) => error.includes("governor-fill")), "Pointer query raised the missing governor-fill error");
   const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
   await mobile.goto(`${base}/executives`, { waitUntil: "domcontentloaded" });
   const mobileSeal = mobile.locator(".president-mobile-marker");

@@ -29,7 +29,7 @@ function fitState(map: MapLibreMap, code: string) {
 }
 
 function setFeatureFlag(map: MapLibreMap, fips: string, key: "hover" | "selected", value: boolean) {
-  if (fips) map.setFeatureState({ source, sourceLayer: source, id: fips }, { [key]: value });
+  if (fips && map.getSource(source)) map.setFeatureState({ source, sourceLayer: source, id: fips }, { [key]: value });
 }
 
 function makePresidentMarker() {
@@ -103,6 +103,10 @@ export default function ExecutivesPage() {
       frame = requestAnimationFrame(() => {
         frame = 0;
         if (!pointer) return;
+        if (!map.getLayer("governor-fill")) {
+          clearHover();
+          return;
+        }
         const feature = map.queryRenderedFeatures(pointer, { layers: ["governor-fill"] })[0];
         const fips = String(feature?.properties.GEOID || "");
         if (hovered.current === fips) return;
