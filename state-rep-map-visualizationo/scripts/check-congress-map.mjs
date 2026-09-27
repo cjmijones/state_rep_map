@@ -54,8 +54,14 @@ try {
   await page.getByText("Vacancy due to the resignation").waitFor();
   await page.selectOption("#federal-district", "1201");
   await page.getByRole("tab", { name: "Recorded votes" }).click();
-  assert.equal(await page.locator(".vote-card").count(), 10);
+  await page.getByText(/recorded rolls for the current officeholder/).waitFor();
+  assert.equal(await page.locator(".vote-card").count(), 20);
   await page.getByText("Official roll call ↗").first().waitFor();
+  await page.getByRole("button", { name: "Show 20 more votes" }).click();
+  assert.equal(await page.locator(".vote-card").count(), 40);
+  await page.getByRole("tab", { name: "Agenda" }).click();
+  await page.getByText("Chamber-wide official notices.").waitFor();
+  await page.getByText("Official notice ↗").first().waitFor();
 
   await page.selectOption("#federal-state", "WA");
   await page.selectOption("#federal-district", "5303");
@@ -86,7 +92,8 @@ try {
   await page.selectOption("#federal-district", "06");
   assert.equal(await page.locator(".member-card").count(), 2);
   await page.getByRole("tab", { name: "Recorded votes" }).click();
-  assert.equal(await page.locator(".vote-card").count(), 10);
+  await page.getByText(/recorded rolls for the current officeholders/).waitFor();
+  assert.equal(await page.locator(".vote-card").count(), 20);
   assert.equal(await page.locator(".vote-card").first().locator(".vote-position").count(), 2);
   if (process.env.SCREENSHOT_PATH) await page.screenshot({ path: process.env.SCREENSHOT_PATH, fullPage: true });
   const senateTile = await page.request.get(`${base}/api/archives/federal-senate.pmtiles`, { headers: { Range: "bytes=0-126" } });

@@ -107,6 +107,10 @@ h1, h2, h3, p { margin-top: 0; }
 .detail-tabs button { min-height: 35px; border: 0; border-radius: 4px; color: #a9c1bf; background: transparent; font-size: 12px; font-weight: 700; }
 .detail-tabs button:hover { color: var(--ink); }
 .detail-tabs button[aria-selected="true"] { color: #f8e5bc; background: #3b5355; }
+.congress-shell .detail-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.congress-shell .detail-tabs button { font-size: 11px; line-height: 1.1; }
+.show-more { width: 100%; margin: 12px 0; padding: 10px; color: #f8e5bc; background: #3b5355; border: 1px solid #698b8b; border-radius: 5px; font-weight: 700; }
+.show-more:hover { background: #4b696a; }
 .vote-panel { padding-top: 16px; }
 .vote-intro { margin: 0 0 15px; color: #b3c8c6; font-size: 12px; line-height: 1.45; }
 .vote-card { margin: 0 -8px; padding: 14px 8px 15px; border-top: 1px solid #385963; }

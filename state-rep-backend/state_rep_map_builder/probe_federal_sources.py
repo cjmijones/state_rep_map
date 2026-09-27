@@ -301,13 +301,16 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], bool]:
     return report, not report["failures"]
 
 
-def write_atomically(path: Path, data: dict[str, Any]) -> None:
+def write_atomically(path: Path, data: dict[str, Any], *, compact: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     handle = tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, delete=False)
     temporary = Path(handle.name)
     try:
         with handle:
-            json.dump(data, handle, indent=2, ensure_ascii=False)
+            if compact:
+                json.dump(data, handle, separators=(",", ":"), ensure_ascii=False)
+            else:
+                json.dump(data, handle, indent=2, ensure_ascii=False)
             handle.write("\n")
         os.replace(temporary, path)
     finally:

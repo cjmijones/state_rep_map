@@ -29,6 +29,10 @@ type District = {
   members: Member[];
   matchType: "exact" | "parent-district" | "unmatched" | "unassigned-area";
 };
+type StateTab = "people" | "votes" | "agenda";
+type WashingtonRoll = { id: string; chamber: Chamber; bill: string; date: string; motion: string; positions: Record<string, string>; sourceUrl: string };
+type WashingtonMeeting = { id: string; chamber: Chamber; committee: string; date: string; room: string; status: string; revisedAt: string; items: string[]; sourceUrl: string };
+type WashingtonPilot = { generatedAt: string; coverage: { description: string; billPassageDateRange: string[]; agendaDateRange: string[]; selectedBills: string[] }; memberCrosswalk: Record<string, string>; rolls: WashingtonRoll[]; meetings: WashingtonMeeting[] };
 type StateInfo = {
   code: string;
   name: string;
@@ -83,6 +87,23 @@ export default function HomePage() {
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
   const [dataError, setDataError] = useState("");
+  const [stateTab, setStateTab] = useState<StateTab>("people");
+  const [washington, setWashington] = useState<WashingtonPilot | null>(null);
+  const [washingtonError, setWashingtonError] = useState("");
+  const [stateVoteLimit, setStateVoteLimit] = useState(20);
+
+  useEffect(() => {
+    if (selectedState !== "WA" || stateTab === "people" || washington) return;
+    const controller = new AbortController();
+    fetch("/data/wa-legislature-pilot.json", { signal: controller.signal }).then(async (response) => {
+      if (!response.ok) throw new Error("Washington legislative records could not be loaded.");
+      const snapshot = await response.json() as WashingtonPilot;
+      if (!Array.isArray(snapshot.rolls) || !Array.isArray(snapshot.meetings)) throw new Error("Washington legislative records are incomplete.");
+      setWashington(snapshot);
+      setWashingtonError("");
+    }).catch((error) => { if (!controller.signal.aborted) setWashingtonError(error instanceof Error ? error.message : "Washington legislative records could not load."); });
+    return () => controller.abort();
+  }, [selectedState, stateTab, washington]);
 
   const loadState = useCallback(async (code: string): Promise<District[]> => {
     const cached = rosterCache.current.get(code);
@@ -191,6 +212,8 @@ export default function HomePage() {
       interactions.current?.select(target);
       setSelectedTarget(target);
       setSelectedDistrict(null);
+      setStateTab("people");
+      setStateVoteLimit(20);
       setDetailsLoading(true);
       setSelectedState(state.code);
       setDistrictSearch("");
@@ -259,6 +282,8 @@ export default function HomePage() {
     setDetailsLoading(false);
     setDataError("");
     setSelectedDistrict(district);
+    setStateTab("people");
+    setStateVoteLimit(20);
     setSelectedTarget(district ? { chamber: district.chamber, geoid: district.geoid } : null);
   };
   const selectState = (code: string) => {
@@ -276,11 +301,16 @@ export default function HomePage() {
     clearMapHover.current?.();
     activeChamber.current = nextChamber;
     setChamber(nextChamber);
+    setStateTab("people");
+    setStateVoteLimit(20);
     selectDistrict(null);
     setDistrictSearch("");
   };
 
   const query = districtSearch.trim().toLocaleLowerCase();
+  const washingtonMemberIds = selectedDistrict?.members.map((member) => washington?.memberCrosswalk[member.id]).filter((id): id is string => Boolean(id)) || [];
+  const washingtonVotes = washington?.rolls.filter((roll) => roll.chamber === chamber && washingtonMemberIds.some((id) => Object.hasOwn(roll.positions, id))) || [];
+  const washingtonMeetings = washington?.meetings.filter((meeting) => meeting.chamber === chamber) || [];
   const searchResults = query
     ? visibleDistricts.filter((district) => {
         return district.name.toLocaleLowerCase().includes(query)
@@ -365,7 +395,12 @@ export default function HomePage() {
                   <div className="district-meta"><span>Boundary {selectedDistrict.boundaryYear}</span></div>
                   <details className="boundary-source"><summary>Boundary source and district ID</summary><p>U.S. Census Bureau · ID {selectedDistrict.geoid}</p></details>
                   {selectedDistrict.matchType === "parent-district" && <p className="match-note">This map shows the parent district. Some members serve a named subdistrict; use their official profile to confirm the exact area.</p>}
-                  {selectedDistrict.members.length ? (
+                  {selectedDistrict.state === "WA" && <div className="detail-tabs" role="tablist" aria-label="Washington district details">
+                    <button type="button" role="tab" aria-selected={stateTab === "people"} onClick={() => setStateTab("people")}>People</button>
+                    <button type="button" role="tab" aria-selected={stateTab === "votes"} onClick={() => setStateTab("votes")}>Recorded votes</button>
+                    <button type="button" role="tab" aria-selected={stateTab === "agenda"} onClick={() => setStateTab("agenda")}>Agenda</button>
+                  </div>}
+                  {stateTab === "people" && selectedDistrict.members.length ? (
                     <div className="member-list">
                       <p className="member-list-title">{selectedDistrict.members.length === 1 ? "Current officeholder" : "Current officeholders"}</p>
                       {selectedDistrict.members.map((member) => (
@@ -381,7 +416,28 @@ export default function HomePage() {
                         </article>
                       ))}
                     </div>
-                  ) : <p className="empty-detail">No current officeholder match has been confirmed for this district. Check the state legislature for the latest status.</p>}
+                  ) : stateTab === "people" ? <p className="empty-detail">No current officeholder match has been confirmed for this district. Check the state legislature for the latest status.</p>
+                    : <div role="tabpanel" aria-label={stateTab === "votes" ? "Recorded votes" : "Agenda"} className="vote-panel">
+                      <p className="vote-intro">Washington pilot: {washington?.coverage.description || "loading official legislative records"}. It covers {washington?.coverage.selectedBills.length || 0} selected bills passed between {washington?.coverage.billPassageDateRange.join(" and ") || "the pilot dates"}; committee meetings cover {washington?.coverage.agendaDateRange.join(" to ") || "the pilot dates"}.</p>
+                      {washingtonError && <p className="data-error" role="alert">{washingtonError}</p>}
+                      {!washington && !washingtonError && <p role="status">Loading Washington records…</p>}
+                      {washington && stateTab === "votes" && (washingtonVotes.length ? washingtonVotes.slice(0, stateVoteLimit).map((roll) => <article className="vote-card" key={roll.id}>
+                        <div className="vote-card-heading"><span>{roll.bill}</span><time>{roll.date}</time></div>
+                        <h3>{roll.motion}</h3>
+                        {selectedDistrict.members.map((member) => <div className="vote-position" key={member.id}><span>{member.name}</span><strong>{washington.memberCrosswalk[member.id] ? roll.positions[washington.memberCrosswalk[member.id]] || "Not listed" : "ID unverified"}</strong></div>)}
+                        <a href={roll.sourceUrl} target="_blank" rel="noopener noreferrer">Official roll call ↗</a>
+                      </article>) : <p className="empty-detail">No individual votes for this district appear in the selected bill sample. This does not indicate the officeholder did not vote.</p>)}
+                      {washington && stateTab === "votes" && washingtonVotes.length > stateVoteLimit && <button className="show-more" type="button" onClick={() => setStateVoteLimit((value) => value + 20)}>Show 20 more votes</button>}
+                      {washington && stateTab === "agenda" && (washingtonMeetings.length ? washingtonMeetings.slice(0, 20).map((meeting) => <article className="vote-card agenda-card" key={meeting.id}>
+                        <div className="vote-card-heading"><span>{meeting.committee}</span><time>{meeting.date.replace("T", " · ")}</time></div>
+                        <h3>{meeting.items[0] || "Committee meeting"}</h3>
+                        {meeting.items.length > 1 && <p className="vote-question">{meeting.items.length} agenda items</p>}
+                        <p className="vote-result">{meeting.status}{meeting.room ? ` · ${meeting.room}` : ""}</p>
+                        {meeting.revisedAt && <p className="vote-question">Revised: {meeting.revisedAt}</p>}
+                        <a href={meeting.sourceUrl} target="_blank" rel="noopener noreferrer">Official agenda ↗</a>
+                      </article>) : <p className="empty-detail">No {chamber === "upper" ? "Senate" : "House"} committee meetings appear in the pilot date window.</p>)}
+                      {washington && <p className="vote-intro">Official Washington snapshot: {new Date(washington.generatedAt).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}.</p>}
+                    </div>}
                 </>
               ) : (
                 <div className="detail-empty">

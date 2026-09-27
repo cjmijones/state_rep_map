@@ -31,9 +31,12 @@ Open <http://localhost:3000>. The generated `public/data` and
 `public/archives` directories are included for the demo build.
 Open <http://localhost:3000/congress> for the 50-state U.S. House and Senate
 view. House shapes follow the 119th Congress representation plan; the Senate
-map uses state boundaries. Its People and Recorded votes tabs use a dated
-local snapshot from the House Clerk and U.S. Senate. The votes tab contains
-the ten most recent recorded rolls available when the snapshot was refreshed.
+map uses state boundaries. Its People, Recorded votes, and Agenda tabs use
+dated official House and Senate snapshots. Full current-session floor vote
+history loads only when the votes tab opens; the agenda tab shows published
+floor and committee notices.
+Washington state districts also have a clearly labeled sample of official
+2026 bill roll calls and committee agendas. The sample is not a full archive.
 An Elections tab now shows Washington's 2024 U.S. House general-election
 results for all ten districts, with an official source link. Other states and
 Senate election results are not yet populated.
@@ -105,6 +108,19 @@ python -m state_rep_map_builder.build_federal_archives \
 python -m state_rep_map_builder.refresh_federal_data \
   --geography ../state-rep-map-visualizationo/public/data/federal-geography.json \
   --output ../state-rep-map-visualizationo/public/data/federal.json
+python -m state_rep_map_builder.refresh_federal_votes \
+  --output-dir ../state-rep-map-visualizationo/public/data
+python -m state_rep_map_builder.refresh_federal_agendas \
+  --output ../state-rep-map-visualizationo/public/data/federal-agendas.json
+python -m state_rep_map_builder.refresh_washington_legislature \
+  --roster ../state-rep-map-visualizationo/public/data/WA.json \
+  --output ../state-rep-map-visualizationo/public/data/wa-legislature-pilot.json
+python -m state_rep_map_builder.build_state_source_inventory \
+  --data-dir ../state-rep-map-visualizationo/public/data \
+  --output ../docs/data/state-legislative-source-inventory.json
+python -m state_rep_map_builder.scan_state_source_links \
+  --inventory ../docs/data/state-legislative-source-inventory.json \
+  --output ../docs/data/state-legislative-link-scan.json
 python -m state_rep_map_builder.build_wa_house_elections \
   --geography ../state-rep-map-visualizationo/public/data/federal-geography.json \
   --output ../state-rep-map-visualizationo/public/data/wa-house-2024.json
@@ -117,9 +133,19 @@ Senate member/contact XML by official IDs, then fetches the newest 10 House
 and Senate recorded rolls. It stores the official source URLs, retrieval
 times, source hashes, and roster publication dates. If any source or join
 fails, the existing `federal.json` remains available. Refresh the roster and
-votes as needed; rebuild boundary tiles only when the current representation
+votes as needed; the separate full-session vote job reuses validated rolls,
+rechecks the five newest, retries transient errors, and resumes from a local
+checkpoint after interruption. The agenda job fetches current official feeds.
+The Washington job selects up to 30 passed bills per chamber in its declared
+date window, so its empty member result never means “did not vote.” Rebuild boundary tiles only when the current representation
 plan changes. This pipeline is pinned to the 119th Congress and must be
 reviewed before changing its Congress/session defaults.
+The [50-state source inventory](docs/data/state-legislative-source-inventory.json)
+lists profile-domain leads for all 99 state chambers and marks feed coverage
+unverified until a chamber source is checked. Washington is the only working
+state importer so far. The [link scan](docs/data/state-legislative-link-scan.json)
+checks those site roots for possible vote and agenda links; its candidates
+still require document-level verification before they count as coverage.
 The Washington election importer reads the Secretary of State's historical
 CSV and checks that its ten House contests match the 119th district GEOIDs.
 It retains the source hash and writes a separate snapshot, so election data

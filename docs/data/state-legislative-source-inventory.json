@@ -1,0 +1,1535 @@
+{
+  "generatedAt": "2026-09-27T20:23:51+00:00",
+  "meaning": "Source discovery queue; unverified means no vote or agenda feed has been checked",
+  "counts": {
+    "states": 50,
+    "chambers": 99,
+    "pilotStates": 1
+  },
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://alison.legislature.state.al.us/"
+          ],
+          "sampleOfficialProfile": "https://alison.legislature.state.al.us/senate-leaders-members",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://alison.legislature.state.al.us/"
+          ],
+          "sampleOfficialProfile": "https://alison.legislature.state.al.us/house-leaders-members",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.akleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.akleg.gov/basis/Member/Detail/30?code=smn",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.akleg.gov/",
+            "https://akleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.akleg.gov/basis/Member/Detail/34?code=byn",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.azleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.azleg.gov/House/House-member/?legislature=54&session=122&legislator=1865",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.azleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.azleg.gov/house-member/?legislature=55&legislator=2063",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://arkleg.state.ar.us/"
+          ],
+          "sampleOfficialProfile": "https://arkleg.state.ar.us/Legislators/Detail?member=Stone",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://arkleg.state.ar.us/"
+          ],
+          "sampleOfficialProfile": "https://arkleg.state.ar.us/Legislators/Detail?member=Wooldridge",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://senate.ca.gov/",
+            "https://sr01.senate.ca.gov/",
+            "https://sd02.senate.ca.gov/",
+            "https://sd03.senate.ca.gov/"
+          ],
+          "sampleOfficialProfile": "https://sr01.senate.ca.gov/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.assembly.ca.gov/",
+            "https://assembly.ca.gov/",
+            "https://women.ca.gov/",
+            "https://www.ci.westminster.ca.us/"
+          ],
+          "sampleOfficialProfile": "https://www.assembly.ca.gov/assemblymembers/01",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": {
+        "url": "https://downloads.leginfo.legislature.ca.gov/",
+        "notes": "Official bulk tables include bill detail votes and committee agendas; parser and current-session coverage still need validation."
+      }
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://leg.colorado.gov/"
+          ],
+          "sampleOfficialProfile": "https://leg.colorado.gov/legislators/byron-pelton",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://leg.colorado.gov/"
+          ],
+          "sampleOfficialProfile": "https://leg.colorado.gov/legislators/javier-mabrey",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://cga.ct.gov/",
+            "https://www.senatedems.ct.gov/",
+            "https://www.cga.ct.gov/",
+            "https://senatedems.ct.gov/"
+          ],
+          "sampleOfficialProfile": "https://cga.ct.gov/asp/CGABillStatus/CGAMemberBills.asp?dist_code=%27S01%27&dist_name=Fonfara,%20John%20W.",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://cga.ct.gov/",
+            "https://www.cga.ct.gov/",
+            "https://www.housedems.ct.gov/",
+            "https://ftp.cga.ct.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.cga.ct.gov/asp/CGABillStatus/CGAMemberBills.asp?dist_code=%27001%27&dist_name=001%20-%Ritter,%Matt",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legis.delaware.gov/",
+            "https://senatedems.delaware.gov/"
+          ],
+          "sampleOfficialProfile": "https://senatedems.delaware.gov/members/senate-district-1/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://housedems.delaware.gov/",
+            "https://housegop.delaware.gov/"
+          ],
+          "sampleOfficialProfile": "https://housedems.delaware.gov/members/house-district-1/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://flsenate.gov/",
+            "https://myfloridahouse.gov/",
+            "https://www.flsenate.gov/",
+            "https://www.flhouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.flsenate.gov/Senators/s1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://myfloridahouse.gov/",
+            "https://www.flhouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763&LegislativeTermId=90",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.ga.gov/",
+            "https://www.house.ga.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.ga.gov/members/senate",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.ga.gov/",
+            "https://www.house.ga.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.ga.gov/members/house",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://capitol.hawaii.gov/",
+            "https://www.capitol.hawaii.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.capitol.hawaii.gov/legislature/memberpage.aspx?member=181&year=2023",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.capitol.hawaii.gov/",
+            "https://capitol.hawaii.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.capitol.hawaii.gov/legislature/memberpage.aspx?member=297",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.idaho.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.idaho.gov/legislators/membership/2021/id5347/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.idaho.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.idaho.gov/legislators/membership/2024/id9315/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://ilga.gov/",
+            "https://www.ilga.gov/"
+          ],
+          "sampleOfficialProfile": "https://ilga.gov/senate/Senator.asp?GA=103&MemberID=3206",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://ilga.gov/",
+            "https://www.ilga.gov/"
+          ],
+          "sampleOfficialProfile": "https://ilga.gov/house/Rep.asp?GA=101&MemberID=2752",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://iga.in.gov/"
+          ],
+          "sampleOfficialProfile": "https://iga.in.gov/legislative/2021/legislators/legislator_lonnie_randolph_160",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://iga.in.gov/"
+          ],
+          "sampleOfficialProfile": "https://iga.in.gov/legislative/2019/legislators/legislator_carolyn_jackson_1/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.iowa.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.iowa.gov/legislators/legislator?personID=39183",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.iowa.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33963",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.kslegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.kslegislature.gov/li/b2025_26/members/sen_bowser_craig_1/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.kslegislature.gov/",
+            "https://kslegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://kslegislature.gov/legislators/rep_helwig_dale_1/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.ky.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=101",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.ky.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://senate.la.gov/",
+            "https://house.louisiana.gov/"
+          ],
+          "sampleOfficialProfile": "https://senate.la.gov/smembers?ID=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://house.louisiana.gov/"
+          ],
+          "sampleOfficialProfile": "https://house.louisiana.gov/H_Reps/members.aspx?ID=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.maine.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.maine.gov/DIstrict1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.maine.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.maine.gov/house/house/memberprofiles/Details/3106",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": {
+        "url": "https://legislature.maine.gov/",
+        "notes": "Official public pages and documents; chamber vote and agenda extraction still needs validation."
+      }
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://mgaleg.maryland.gov/"
+          ],
+          "sampleOfficialProfile": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/mckay01",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://mgaleg.maryland.gov/"
+          ],
+          "sampleOfficialProfile": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/simpson01",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://malegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://malegislature.gov/Legislators/Profile/PWM0",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://malegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://malegislature.gov/Legislators/Profile/CRF1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://senate.michigan.gov/"
+          ],
+          "sampleOfficialProfile": "https://senate.michigan.gov/senatorinfo_list.html",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.house.mi.gov/",
+            "https://mdoe.state.mi.us/",
+            "https://senate.michigan.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.house.mi.gov/AllRepresentatives",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.house.leg.state.mn.us/",
+            "https://www.house.mn.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.house.leg.state.mn.us/members/hmem.asp",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.house.mn.gov/",
+            "https://www.house.leg.state.mn.us/"
+          ],
+          "sampleOfficialProfile": "https://www.house.mn.gov/members/profile/15538",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://billstatus.ls.state.ms.us/"
+          ],
+          "sampleOfficialProfile": "https://billstatus.ls.state.ms.us/members/senate/mclendon.xml",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://billstatus.ls.state.ms.us/"
+          ],
+          "sampleOfficialProfile": "https://billstatus.ls.state.ms.us/members/house/carpenter.xml",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.senate.mo.gov/",
+            "https://house.mo.gov/",
+            "https://www.house.mo.gov/",
+            "https://senate.mo.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.house.mo.gov/MemberDetails.aspx?district=92",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://house.mo.gov/"
+          ],
+          "sampleOfficialProfile": "https://house.mo.gov/MemberDetails.aspx?district=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://leg.mt.gov/",
+            "https://archive.legmt.gov/",
+            "https://legislators.legmt.gov/"
+          ],
+          "sampleOfficialProfile": "https://leg.mt.gov/legislator-information/roster/individual/5034",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://leg.mt.gov/",
+            "https://legislators.legmt.gov/",
+            "https://archive.legmt.gov/"
+          ],
+          "sampleOfficialProfile": "https://leg.mt.gov/legislator-information/roster/individual/5060",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://nebraskalegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.leg.state.nv.us/"
+          ],
+          "sampleOfficialProfile": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.leg.state.nv.us/"
+          ],
+          "sampleOfficialProfile": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=307",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://gc.nh.gov/"
+          ],
+          "sampleOfficialProfile": "https://gc.nh.gov/senate/members/webpages/district01.aspx",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://gc.nh.gov/"
+          ],
+          "sampleOfficialProfile": "https://gc.nh.gov/house/members/member.aspx?pid=9860",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.njleg.state.nj.us/"
+          ],
+          "sampleOfficialProfile": "https://www.njleg.state.nj.us/legislative-roster/424/senator-testa",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.njleg.state.nj.us/",
+            "https://njleg.state.nj.us/"
+          ],
+          "sampleOfficialProfile": "https://www.njleg.state.nj.us/legislative-roster/425/assemblyman-mcclellan",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.nmlegis.gov/",
+            "https://nmlegis.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.nmlegis.gov/Members/Legislator?SponCode=SSHAR",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.nmlegis.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMONR",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.nysenate.gov/",
+            "https://assembly.state.ny.us/"
+          ],
+          "sampleOfficialProfile": "https://assembly.state.ny.us/mem/?sh=email",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://assembly.state.ny.us/",
+            "https://nyassembly.gov/"
+          ],
+          "sampleOfficialProfile": "https://nyassembly.gov/mem/Tommy-John-Schiavoni",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": {
+        "url": "https://legislation.nysenate.gov/",
+        "notes": "Official Senate API has bill votes and agendas; free API key needed. Assembly feed still needs review."
+      }
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.ncleg.gov/",
+            "https://www.ncga.state.nc.us/"
+          ],
+          "sampleOfficialProfile": "https://www.ncleg.gov/Members/Biography/S/375",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.ncleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.ncleg.gov/Members/Biography/H/744",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://ndlegis.gov/"
+          ],
+          "sampleOfficialProfile": "https://ndlegis.gov/biography/brad-bekkedahl",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://ndlegis.gov/"
+          ],
+          "sampleOfficialProfile": "https://ndlegis.gov/biography/david-richter",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.ohiosenate.gov/",
+            "https://ohiohouse.gov/",
+            "https://ohiosenate.gov/",
+            "https://www.ohiohouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.ohiosenate.gov/members/rob-mccolley",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://ohiohouse.gov/",
+            "https://www.ohiohouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://ohiohouse.gov/dontavius-l-jarrells",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://oksenate.gov/"
+          ],
+          "sampleOfficialProfile": "https://oksenate.gov/contact-senator?sid=1838",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.okhouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.okhouse.gov/Members/Contact.aspx?District=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.oregonlegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.oregonlegislature.gov/smithd",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.oregonlegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.oregonlegislature.gov/boice",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.state.pa.us/",
+            "https://www.palegis.us/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.state.pa.us/cfdocs/legis/home/member_information/Senate_bio.cfm?id=1921",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.state.pa.us/",
+            "https://www.palegis.us/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.state.pa.us/cfdocs/legis/home/member_information/House_bio.cfm?id=1081",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.rilegislature.gov/",
+            "https://rilegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.rilegislature.gov/senators/bissaillon/Pages/Biography.aspx",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.rilegislature.gov/",
+            "https://rilegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.rilegislature.gov/representatives/ajello/default.aspx",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://scstatehouse.gov/",
+            "https://www.scstatehouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://scstatehouse.gov/member.php?code=0013636362",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://scstatehouse.gov/",
+            "https://www.scstatehouse.gov/"
+          ],
+          "sampleOfficialProfile": "https://scstatehouse.gov/member.php?code=1914204316",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://sdlegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://sdlegislature.gov/Legislators/Profile/3805/Detail",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://sdlegislature.gov/",
+            "https://legis.sd.gov/"
+          ],
+          "sampleOfficialProfile": "https://sdlegislature.gov/Legislators/Profile/4685/Detail",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://wapp.capitol.tn.gov/"
+          ],
+          "sampleOfficialProfile": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://wapp.capitol.tn.gov/"
+          ],
+          "sampleOfficialProfile": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://senate.texas.gov/",
+            "https://house.texas.gov/",
+            "https://www.senate.texas.gov/"
+          ],
+          "sampleOfficialProfile": "https://senate.texas.gov/member.php?d=1",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://house.texas.gov/",
+            "https://www.house.texas.gov/"
+          ],
+          "sampleOfficialProfile": "https://house.texas.gov/members/2540",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://disclosures.utah.gov/",
+            "https://le.utah.gov/",
+            "https://senate.utah.gov/"
+          ],
+          "sampleOfficialProfile": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412644",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://disclosures.utah.gov/",
+            "https://house.utleg.gov/",
+            "https://house.utah.gov/"
+          ],
+          "sampleOfficialProfile": "https://house.utah.gov/rep/PETERT/",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.vermont.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.vermont.gov/Documents/SmallMaps/ADDDIST.pdf",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://legislature.vermont.gov/"
+          ],
+          "sampleOfficialProfile": "https://legislature.vermont.gov/Documents/SmallMaps/ADD-1.pdf",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://apps.senate.virginia.gov/",
+            "https://house.vga.virginia.gov/"
+          ],
+          "sampleOfficialProfile": "https://apps.senate.virginia.gov/Senator/memberpage.php?id=S121",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://house.vga.virginia.gov/"
+          ],
+          "sampleOfficialProfile": "https://house.vga.virginia.gov/members/H0219",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "chambers": {
+        "upper": {
+          "voteFeed": "pilot",
+          "committeeAgendaFeed": "pilot",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://leg.wa.gov/",
+            "https://housedemocrats.wa.gov/",
+            "https://houserepublicans.wa.gov/",
+            "https://curtisking.us/"
+          ],
+          "sampleOfficialProfile": "https://leg.wa.gov/legislators/member/derek-stanford",
+          "verifiedVoteIndexUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx?op=GetRollCalls",
+          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings"
+        },
+        "lower": {
+          "voteFeed": "pilot",
+          "committeeAgendaFeed": "pilot",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://housedemocrats.wa.gov/",
+            "https://leg.wa.gov/",
+            "https://houserepublicans.wa.gov/",
+            "https://andrewbarkis.houserepublicans.wa.gov/"
+          ],
+          "sampleOfficialProfile": "https://housedemocrats.wa.gov/Duerr/",
+          "verifiedVoteIndexUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx?op=GetRollCalls",
+          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings"
+        }
+      },
+      "knownOfficialSource": {
+        "url": "https://wslwebservices.leg.wa.gov/",
+        "notes": "Official XML member, bill roll-call, and committee meeting services; bounded pilot implemented."
+      }
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.legis.state.wv.us/",
+            "https://www.wvlegislature.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Chapman",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.wvlegislature.gov/",
+            "https://www.legis.state.wv.us/"
+          ],
+          "sampleOfficialProfile": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+McGeehan",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://docs.legis.wisconsin.gov/"
+          ],
+          "sampleOfficialProfile": "https://docs.legis.wisconsin.gov/2019/legislators/senate/1941",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://docs.legis.wisconsin.gov/"
+          ],
+          "sampleOfficialProfile": "https://docs.legis.wisconsin.gov/2017/legislators/assembly/1572",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "chambers": {
+        "upper": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.wyoleg.gov/",
+            "https://wyoleg.gov/"
+          ],
+          "sampleOfficialProfile": "https://www.wyoleg.gov/Legislators/2023/S/1972",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        },
+        "lower": {
+          "voteFeed": "unverified",
+          "committeeAgendaFeed": "unverified",
+          "floorAgendaFeed": "unverified",
+          "profileDomainLeads": [
+            "https://www.wyoleg.gov/",
+            "https://wyoleg.gov/",
+            "https://legisweb.state.wy.us/"
+          ],
+          "sampleOfficialProfile": "https://www.wyoleg.gov/Legislators/2023/H/2070",
+          "verifiedVoteIndexUrl": "",
+          "verifiedAgendaIndexUrl": ""
+        }
+      },
+      "knownOfficialSource": null
+    }
+  ]
+}

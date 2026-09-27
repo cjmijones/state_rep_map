@@ -7,11 +7,14 @@ import { Protocol } from "pmtiles";
 import statesJson from "../../public/data/states.json";
 
 type Chamber = "house" | "senate";
-type Tab = "people" | "votes" | "elections";
+type Tab = "people" | "votes" | "agenda" | "elections";
 type Member = { id: string; lisId?: string; name: string; party: string; phone: string; officialUrl: string; seatClass?: string };
 type District = { geoid: string; state: string; stateName: string; code: string; name: string; members: Member[]; vacancyNote?: string };
 type Roll = { roll: number; date: string; question: string; result: string; document: string; description: string; voteType: string; sourceUrl: string; positions: Record<string, string> };
 type Snapshot = { generatedAt: string; congress: number; boundaryYear: number; rosterAsOf: Record<Chamber, string>; house: District[]; senate: District[]; votes: Record<Chamber, Roll[]> };
+type VoteSnapshot = { generatedAt: string; chamber: Chamber; congress: number; session: number; rollCount: number; rolls: Roll[] };
+type AgendaItem = { id: string; chamber: Chamber; kind: "floor" | "committee"; date: string; time: string; title: string; document: string; status: string; updatedAt: string; sourceUrl: string; room?: string };
+type AgendaSnapshot = { generatedAt: string; items: AgendaItem[]; coverage: Record<Chamber, string[]>; changes: { id: string; change: "added" | "updated" | "removed" }[] };
 type ElectionCandidate = { name: string; party: string; votes: number; percentage: number };
 type ElectionContest = { geoid: string; district: string; electionDate: string; stage: string; boundaryPlanId: string; totalVotes: number; candidates: ElectionCandidate[] };
 type ElectionSnapshot = { generatedAt: string; coverage: string; boundaryPlanId: string; source: { exportPageUrl: string; fetchedAt: string | null }; status: string; contests: ElectionContest[] };
@@ -80,6 +83,11 @@ export default function CongressPage() {
   const [tab, setTab] = useState<Tab>("people");
   const [elections, setElections] = useState<ElectionSnapshot | null>(null);
   const [electionError, setElectionError] = useState("");
+  const [voteHistory, setVoteHistory] = useState<Partial<Record<Chamber, VoteSnapshot>>>({});
+  const [voteError, setVoteError] = useState("");
+  const [agenda, setAgenda] = useState<AgendaSnapshot | null>(null);
+  const [agendaError, setAgendaError] = useState("");
+  const [voteLimit, setVoteLimit] = useState(20);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -91,6 +99,32 @@ export default function CongressPage() {
     }).catch((error) => { if (!controller.signal.aborted) setDataError(error instanceof Error ? error.message : "Congress data could not load."); });
     return () => controller.abort();
   }, []);
+
+  useEffect(() => {
+    if (tab !== "votes" || voteHistory[chamber]) return;
+    const controller = new AbortController();
+    fetch(`/data/federal-votes-${chamber}.json`, { signal: controller.signal }).then(async (response) => {
+      if (!response.ok) throw new Error("Full roll-call history could not be loaded.");
+      const snapshot = await response.json() as VoteSnapshot;
+      if (snapshot.chamber !== chamber || snapshot.congress !== data?.congress || snapshot.rollCount !== snapshot.rolls.length) throw new Error("The roll-call snapshot is incomplete.");
+      setVoteHistory((previous) => ({ ...previous, [chamber]: snapshot }));
+      setVoteError("");
+    }).catch((error) => { if (!controller.signal.aborted) setVoteError(error instanceof Error ? error.message : "Roll-call history could not load."); });
+    return () => controller.abort();
+  }, [tab, chamber, voteHistory, data]);
+
+  useEffect(() => {
+    if (tab !== "agenda" || agenda) return;
+    const controller = new AbortController();
+    fetch("/data/federal-agendas.json", { signal: controller.signal }).then(async (response) => {
+      if (!response.ok) throw new Error("Congress schedules could not be loaded.");
+      const snapshot = await response.json() as AgendaSnapshot;
+      if (!Array.isArray(snapshot.items)) throw new Error("Congress schedule data is incomplete.");
+      setAgenda(snapshot);
+      setAgendaError("");
+    }).catch((error) => { if (!controller.signal.aborted) setAgendaError(error instanceof Error ? error.message : "Congress schedules could not load."); });
+    return () => controller.abort();
+  }, [tab, agenda]);
 
   useEffect(() => {
     if (tab !== "elections" || chamber !== "house" || selectedState !== "WA" || elections) return;
@@ -162,6 +196,7 @@ export default function CongressPage() {
       setSelectedState(state.code);
       setSelectedGeoid(geoid);
       setTab("people");
+      setVoteLimit(20);
     };
     map.on("load", () => { addFederalLayers(map, window.location.origin); fitOverview(map); setMapReady(true); });
     map.on("error", (event) => setMapError(event.error?.message || "The map could not load its district data."));
@@ -201,11 +236,17 @@ export default function CongressPage() {
   const records = useMemo(() => data?.[chamber] || [], [data, chamber]);
   const visible = useMemo(() => records.filter((item) => item.state === selectedState), [records, selectedState]);
   const selected = records.find((item) => item.geoid === selectedGeoid);
-  const rolls = data?.votes[chamber] || [];
+  const rolls = voteHistory[chamber]?.rolls || data?.votes[chamber] || [];
+  const memberRolls = selected ? rolls.filter((roll) => selected.members.some((member) => Object.hasOwn(roll.positions, chamber === "house" ? member.id : member.lisId || ""))) : [];
+  const chamberAgenda = agenda?.items.filter((item) => item.chamber === chamber) || [];
+  const upcomingAgenda = chamberAgenda.filter((item) => item.date >= new Date().toISOString().slice(0, 10));
+  const shownAgenda = upcomingAgenda.length ? upcomingAgenda.slice(0, 20) : chamberAgenda.slice(-8).reverse();
+  const agendaChanges = new Map(agenda?.changes.map((change) => [change.id, change.change]) || []);
   const election = elections?.contests.find((item) => item.geoid === selectedGeoid);
   const selectState = (code: string) => {
     setSelectedState(code);
     setSelectedGeoid("");
+    setVoteLimit(20);
     if (mapRef.current) fitState(mapRef.current, code);
   };
   const selectChamber = (next: Chamber) => {
@@ -213,6 +254,8 @@ export default function CongressPage() {
     setChamber(next);
     setSelectedGeoid("");
     setTab("people");
+    setVoteError("");
+    setVoteLimit(20);
   };
 
   return <main className="atlas-shell congress-shell">
@@ -235,7 +278,7 @@ export default function CongressPage() {
               <option value="">All 50 states</option>{states.map((state) => <option key={state.code} value={state.code}>{state.name}</option>)}
             </select>
             {selectedState && <><label className="field-label" htmlFor="federal-district">{chamber === "house" ? "Congressional district" : "Senate delegation"}</label>
-              <select id="federal-district" value={selectedGeoid} onChange={(event) => { setSelectedGeoid(event.target.value); setTab("people"); }}>
+              <select id="federal-district" value={selectedGeoid} onChange={(event) => { setSelectedGeoid(event.target.value); setTab("people"); setVoteLimit(20); }}>
                 <option value="">Choose {chamber === "house" ? "a district" : "a state"}</option>
                 {visible.map((item) => <option key={item.geoid} value={item.geoid}>{item.name}</option>)}
               </select></>}
@@ -250,6 +293,7 @@ export default function CongressPage() {
               <div className="detail-tabs" role="tablist" aria-label="Congress details">
                 <button type="button" role="tab" aria-selected={tab === "people"} onClick={() => setTab("people")}>People</button>
                 <button type="button" role="tab" aria-selected={tab === "votes"} onClick={() => setTab("votes")}>Recorded votes</button>
+                <button type="button" role="tab" aria-selected={tab === "agenda"} onClick={() => setTab("agenda")}>Agenda</button>
                 <button type="button" role="tab" aria-selected={tab === "elections"} onClick={() => setTab("elections")}>Elections</button>
               </div>
               {tab === "people" ? <div role="tabpanel" aria-label="People">
@@ -260,15 +304,32 @@ export default function CongressPage() {
                     <div className="member-links"><a href={member.officialUrl} target="_blank" rel="noopener noreferrer">Official profile ↗</a>{member.phone && <a href={`tel:${member.phone.replace(/[^+\d]/g, "")}`}>{member.phone}</a>}</div>
                   </article>)}</div> : <p className="empty-detail">{selected.vacancyNote || "No current officeholder is listed in the official roster for this seat."}</p>}
               </div> : tab === "votes" ? <div role="tabpanel" aria-label="Recorded votes" className="vote-panel">
-                <p className="vote-intro">Latest {rolls.length} recorded {chamber === "house" ? "House" : "Senate"} roll calls at snapshot time. A missing position means the member was absent from that roll&apos;s source; it is different from a recorded “Not Voting.”</p>
-                {selected.members.length ? rolls.map((roll) => <article className="vote-card" key={roll.roll}>
+                <p className="vote-intro">{voteHistory[chamber] ? `${memberRolls.length} recorded rolls for the current officeholder${selected.members.length > 1 ? "s" : ""} in the ${voteHistory[chamber]?.congress}th Congress, session ${voteHistory[chamber]?.session}.` : `Loading full session history; showing ${rolls.length} recent rolls.`} A missing position means the member was absent from that roll&apos;s source; it is different from a recorded “Not Voting.”</p>
+                {voteError && <p className="data-error" role="alert">{voteError} Recent rolls remain available below.</p>}
+                {selected.members.length ? (voteHistory[chamber] ? memberRolls : rolls).slice(0, voteLimit).map((roll) => <article className="vote-card" key={roll.roll}>
                   <div className="vote-card-heading"><span>Roll {roll.roll}</span><time>{roll.date}</time></div>
                   <h3>{roll.description || roll.document || roll.question}</h3>
                   {(roll.description || roll.document) && <p className="vote-question">{roll.question}</p>}
                   <p className="vote-result">{roll.result}</p>
                   {selected.members.map((member) => <div className="vote-position" key={member.id}><span>{member.name}</span><strong>{roll.positions[chamber === "house" ? member.id : member.lisId || ""] || "Not listed"}</strong></div>)}
                   <a href={roll.sourceUrl} target="_blank" rel="noopener noreferrer">Official roll call ↗</a>
-                </article>) : <p className="empty-detail">This seat is vacant in the current roster. Select a represented seat to see its members&apos; recent positions.</p>}
+                </article>) : <p className="empty-detail">This seat is vacant in the current roster. Select a represented seat to see its members&apos; positions.</p>}
+                {voteHistory[chamber] && memberRolls.length > voteLimit && <button className="show-more" type="button" onClick={() => setVoteLimit((value) => value + 20)}>Show 20 more votes</button>}
+                {voteHistory[chamber] && <p className="vote-intro">Official source refreshed {formatSnapshot(voteHistory[chamber].generatedAt)}. Only recorded floor roll calls are included.</p>}
+              </div> : tab === "agenda" ? <div role="tabpanel" aria-label="Agenda" className="agenda-panel">
+                <p className="vote-intro">Chamber-wide official notices. Schedules can change; House floor items are measures that may be considered, while the Senate floor feed lists its next convening.</p>
+                {agendaError && <p className="data-error" role="alert">{agendaError}</p>}
+                {!agenda && !agendaError && <p role="status" className="vote-intro">Loading official schedules…</p>}
+                {agenda && <><p className="member-list-title">{upcomingAgenda.length ? "Upcoming notices" : "Most recently published notices"} · {chamber === "house" ? "U.S. House" : "U.S. Senate"}</p>
+                  {shownAgenda.length ? shownAgenda.map((item) => <article className="vote-card agenda-card" key={item.id}>
+                    <div className="vote-card-heading"><span>{item.kind === "floor" ? "Floor" : "Committee"}</span><time>{item.date}{item.time ? ` · ${item.time}` : ""}</time></div>
+                    <h3>{item.title}</h3>
+                    {item.document && <p className="vote-question">{item.document}</p>}
+                    <p className="vote-result">{item.status}{item.room ? ` · ${item.room}` : ""}</p>
+                    {item.updatedAt && <p className="vote-question">Source updated: {item.updatedAt}{agendaChanges.has(item.id) ? ` · ${agendaChanges.get(item.id)} since the previous refresh` : ""}</p>}
+                    <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Official notice ↗</a>
+                  </article>) : <p className="empty-detail">No notices are listed in the currently published official feeds.</p>}
+                  <p className="vote-intro">Schedule snapshot: {formatSnapshot(agenda.generatedAt)}. {agenda.changes.length} added, updated, or removed notices since the previous refresh.</p></>}
               </div> : <div role="tabpanel" aria-label="Elections" className="election-panel">
                 {chamber !== "house" || selected.state !== "WA" ? <p className="empty-detail">Election history is available for Washington&apos;s 2024 U.S. House races so far. Other states and Senate races are being added.</p>
                   : electionError ? <p className="data-error" role="alert">{electionError}</p>

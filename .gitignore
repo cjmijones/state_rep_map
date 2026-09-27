@@ -43,6 +43,7 @@ yarn.lock
 .env.production.local
 state-rep-map-visualizationo/.playwright-cli/
 state-rep-map-visualizationo/public/tiles/
+state-rep-map-visualizationo/public/data/.federal-votes-*.checkpoint.json
 
 # OS generated files
 .DS_Store

@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test:map": "node scripts/check-map-interactions.mjs",
     "test:congress": "node scripts/check-congress-map.mjs",
+    "test:washington": "node scripts/check-washington-pilot.mjs",
     "test:executives": "node scripts/check-executives-map.mjs"
   },
   "dependencies": {
