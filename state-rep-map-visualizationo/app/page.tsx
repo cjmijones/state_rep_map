@@ -31,8 +31,9 @@ type District = {
 };
 type StateTab = "people" | "votes" | "agenda";
 type WashingtonRoll = { id: string; chamber: Chamber; bill: string; date: string; motion: string; positions: Record<string, string>; sourceUrl: string };
-type WashingtonMeeting = { id: string; chamber: Chamber; committee: string; date: string; room: string; status: string; revisedAt: string; items: string[]; sourceUrl: string };
-type WashingtonPilot = { generatedAt: string; coverage: { description: string; billPassageDateRange: string[]; agendaDateRange: string[]; selectedBills: string[] }; memberCrosswalk: Record<string, string>; rolls: WashingtonRoll[]; meetings: WashingtonMeeting[] };
+type WashingtonMeeting = { id: string; chamber: Chamber | "joint" | "other"; committee: string; date: string; room: string; status: string; revisedAt: string; items: string[]; sourceUrl: string; xmlUrl: string };
+type WashingtonSchedule = { asOfDate: string; refreshedAt: string; timeZone: string; regularSession: { lastAdjournedAt: string; sourceUrl: string }; nextRegularSession: { date: string; status: "tentative"; sourceUrl: string } | null; committeeScheduleUrl: string; upcomingMeetings: WashingtonMeeting[]; historicalMeetings: WashingtonMeeting[] };
+type WashingtonPilot = { generatedAt: string; coverage: { description: string; billPassageDateRange: string[]; historicalAgendaDateRange: string[]; upcomingAgendaDateRange: string[]; selectedBills: string[] }; memberCrosswalk: Record<string, string>; rolls: WashingtonRoll[]; schedule: WashingtonSchedule };
 type StateInfo = {
   code: string;
   name: string;
@@ -47,6 +48,15 @@ const statesByFips = new Map(states.map((state) => [state.fips, state]));
 const rosterDate = new Date(`${manifestJson.asOf}T00:00:00Z`).toLocaleDateString("en-US", {
   month: "short", day: "numeric", year: "numeric", timeZone: "UTC",
 });
+function washingtonToday() {
+  const parts = new Intl.DateTimeFormat("en-US", { timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date());
+  const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${value.year}-${value.month}-${value.day}`;
+}
+
+function displayDate(value: string) {
+  return new Date(`${value.slice(0, 10)}T12:00:00Z`).toLocaleDateString("en-US", { dateStyle: "medium", timeZone: "UTC" });
+}
 let protocolRegistered = false;
 
 function fitState(map: MapLibreMap, state: StateInfo) {
@@ -98,7 +108,7 @@ export default function HomePage() {
     fetch("/data/wa-legislature-pilot.json", { signal: controller.signal }).then(async (response) => {
       if (!response.ok) throw new Error("Washington legislative records could not be loaded.");
       const snapshot = await response.json() as WashingtonPilot;
-      if (!Array.isArray(snapshot.rolls) || !Array.isArray(snapshot.meetings)) throw new Error("Washington legislative records are incomplete.");
+      if (!Array.isArray(snapshot.rolls) || !Array.isArray(snapshot.schedule?.upcomingMeetings) || !Array.isArray(snapshot.schedule?.historicalMeetings)) throw new Error("Washington legislative records are incomplete.");
       setWashington(snapshot);
       setWashingtonError("");
     }).catch((error) => { if (!controller.signal.aborted) setWashingtonError(error instanceof Error ? error.message : "Washington legislative records could not load."); });
@@ -310,7 +320,19 @@ export default function HomePage() {
   const query = districtSearch.trim().toLocaleLowerCase();
   const washingtonMemberIds = selectedDistrict?.members.map((member) => washington?.memberCrosswalk[member.id]).filter((id): id is string => Boolean(id)) || [];
   const washingtonVotes = washington?.rolls.filter((roll) => roll.chamber === chamber && washingtonMemberIds.some((id) => Object.hasOwn(roll.positions, id))) || [];
-  const washingtonMeetings = washington?.meetings.filter((meeting) => meeting.chamber === chamber) || [];
+  const todayInWashington = washingtonToday();
+  const washingtonMeetings = washington?.schedule.upcomingMeetings.filter((meeting) => meeting.date.slice(0, 10) >= todayInWashington && (meeting.chamber === chamber || meeting.chamber === "joint")) || [];
+  const washingtonPastMeetings = washington ? [...washington.schedule.historicalMeetings, ...washington.schedule.upcomingMeetings.filter((meeting) => meeting.date.slice(0, 10) < todayInWashington)]
+    .filter((meeting) => meeting.chamber === chamber || meeting.chamber === "joint").sort((a, b) => b.date.localeCompare(a.date)) : [];
+  const nextChamberMeeting = washingtonMeetings.find((meeting) => meeting.chamber === chamber && meeting.status !== "Cancelled");
+  const washingtonMeetingCard = (meeting: WashingtonMeeting) => <article className="vote-card agenda-card" key={meeting.id}>
+    <div className="vote-card-heading"><span>{meeting.chamber === "joint" ? "Joint committee" : chamber === "upper" ? "Senate committee" : "House committee"}</span><time>{meeting.date.replace("T", " · ")}</time></div>
+    <h3>{meeting.committee || "Committee meeting"}</h3>
+    {meeting.items.length > 0 && <p className="vote-question">{meeting.items[0]}{meeting.items.length > 1 ? ` · ${meeting.items.length} agenda items` : ""}</p>}
+    <p className="vote-result">{meeting.status}{meeting.room ? ` · ${meeting.room}` : ""}</p>
+    {meeting.revisedAt && <p className="vote-question">Revised: {meeting.revisedAt}</p>}
+    <a href={meeting.sourceUrl} target="_blank" rel="noopener noreferrer">Official agenda ↗</a>
+  </article>;
   const searchResults = query
     ? visibleDistricts.filter((district) => {
         return district.name.toLocaleLowerCase().includes(query)
@@ -418,7 +440,8 @@ export default function HomePage() {
                     </div>
                   ) : stateTab === "people" ? <p className="empty-detail">No current officeholder match has been confirmed for this district. Check the state legislature for the latest status.</p>
                     : <div role="tabpanel" aria-label={stateTab === "votes" ? "Recorded votes" : "Agenda"} className="vote-panel">
-                      <p className="vote-intro">Washington pilot: {washington?.coverage.description || "loading official legislative records"}. It covers {washington?.coverage.selectedBills.length || 0} selected bills passed between {washington?.coverage.billPassageDateRange.join(" and ") || "the pilot dates"}; committee meetings cover {washington?.coverage.agendaDateRange.join(" to ") || "the pilot dates"}.</p>
+                      {stateTab === "votes" ? <p className="vote-intro">Washington pilot: {washington?.coverage.description || "loading official legislative records"}. It covers {washington?.coverage.selectedBills.length || 0} selected bills passed between {washington?.coverage.billPassageDateRange.join(" and ") || "the pilot dates"}. Individual votes come from the legislature&apos;s <a href="https://wslwebservices.leg.wa.gov/legislationservice.asmx?op=GetRollCalls" target="_blank" rel="noopener noreferrer">GetRollCalls XML service ↗</a>.</p>
+                        : <p className="vote-intro">Upcoming House, Senate, and joint committee notices from Washington&apos;s official schedule. These are chamber-wide meetings, not meetings for this district alone.</p>}
                       {washingtonError && <p className="data-error" role="alert">{washingtonError}</p>}
                       {!washington && !washingtonError && <p role="status">Loading Washington records…</p>}
                       {washington && stateTab === "votes" && (washingtonVotes.length ? washingtonVotes.slice(0, stateVoteLimit).map((roll) => <article className="vote-card" key={roll.id}>
@@ -428,14 +451,20 @@ export default function HomePage() {
                         <a href={roll.sourceUrl} target="_blank" rel="noopener noreferrer">Official roll call ↗</a>
                       </article>) : <p className="empty-detail">No individual votes for this district appear in the selected bill sample. This does not indicate the officeholder did not vote.</p>)}
                       {washington && stateTab === "votes" && washingtonVotes.length > stateVoteLimit && <button className="show-more" type="button" onClick={() => setStateVoteLimit((value) => value + 20)}>Show 20 more votes</button>}
-                      {washington && stateTab === "agenda" && (washingtonMeetings.length ? washingtonMeetings.slice(0, 20).map((meeting) => <article className="vote-card agenda-card" key={meeting.id}>
-                        <div className="vote-card-heading"><span>{meeting.committee}</span><time>{meeting.date.replace("T", " · ")}</time></div>
-                        <h3>{meeting.items[0] || "Committee meeting"}</h3>
-                        {meeting.items.length > 1 && <p className="vote-question">{meeting.items.length} agenda items</p>}
-                        <p className="vote-result">{meeting.status}{meeting.room ? ` · ${meeting.room}` : ""}</p>
-                        {meeting.revisedAt && <p className="vote-question">Revised: {meeting.revisedAt}</p>}
-                        <a href={meeting.sourceUrl} target="_blank" rel="noopener noreferrer">Official agenda ↗</a>
-                      </article>) : <p className="empty-detail">No {chamber === "upper" ? "Senate" : "House"} committee meetings appear in the pilot date window.</p>)}
+                      {washington && stateTab === "agenda" && <>
+                        <div className="session-summary">
+                          <p className="member-list-title">Regular session</p>
+                          <p>The 2026 regular session adjourned {displayDate(washington.schedule.regularSession.lastAdjournedAt)}. Interim committees can still meet.</p>
+                          {washington.schedule.nextRegularSession && washington.schedule.nextRegularSession.date >= todayInWashington && <p>Next regular session: <strong>{displayDate(washington.schedule.nextRegularSession.date)}</strong> (tentative). <a href={washington.schedule.nextRegularSession.sourceUrl} target="_blank" rel="noopener noreferrer">Official session dates ↗</a></p>}
+                          {nextChamberMeeting && <p>Next scheduled {chamber === "upper" ? "Senate" : "House"} committee meeting: <strong>{displayDate(nextChamberMeeting.date)}</strong>.</p>}
+                        </div>
+                        <section className="upcoming-meetings" aria-label="Upcoming committee meetings">
+                          <p className="member-list-title">Upcoming committee meetings</p>
+                          {washingtonMeetings.length ? washingtonMeetings.slice(0, 20).map(washingtonMeetingCard) : <p className="empty-detail">No upcoming {chamber === "upper" ? "Senate" : "House"} or joint committee meetings are listed in this snapshot. <a href={washington.schedule.committeeScheduleUrl} target="_blank" rel="noopener noreferrer">Check the live official schedule ↗</a></p>}
+                        </section>
+                        {washingtonPastMeetings.length > 0 && <details className="agenda-history"><summary>Past meeting sample · {washington.coverage.historicalAgendaDateRange.join(" to ")}</summary>{washingtonPastMeetings.slice(0, 8).map(washingtonMeetingCard)}</details>}
+                        <p className="vote-intro">Schedule refreshed {new Date(washington.schedule.refreshedAt).toLocaleString("en-US", { year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZone: washington.schedule.timeZone, timeZoneName: "short" })}. The legislature publishes <a href="https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings" target="_blank" rel="noopener noreferrer">meeting XML ↗</a> and individual agenda items. This map displays a dated copy; <a href={washington.schedule.committeeScheduleUrl} target="_blank" rel="noopener noreferrer">check the live schedule ↗</a> for changes.</p>
+                      </>}
                       {washington && <p className="vote-intro">Official Washington snapshot: {new Date(washington.generatedAt).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}.</p>}
                     </div>}
                 </>

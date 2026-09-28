@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T20:23:51+00:00",
-  "meaning": "Source discovery queue; unverified means no vote or agenda feed has been checked",
+  "generatedAt": "2026-09-28T02:23:16+00:00",
+  "meaning": "Source discovery queue; source-verified means an index and member-level sample were inspected, while pilot means a working importer",
   "counts": {
     "states": 50,
     "chambers": 99,
@@ -575,20 +575,21 @@
           "verifiedAgendaIndexUrl": ""
         },
         "lower": {
-          "voteFeed": "unverified",
+          "voteFeed": "source-verified",
           "committeeAgendaFeed": "unverified",
           "floorAgendaFeed": "unverified",
           "profileDomainLeads": [
             "https://legislature.maine.gov/"
           ],
           "sampleOfficialProfile": "https://legislature.maine.gov/house/house/memberprofiles/Details/3106",
-          "verifiedVoteIndexUrl": "",
-          "verifiedAgendaIndexUrl": ""
+          "verifiedVoteIndexUrl": "https://www.legislature.maine.gov/house/Documents/RollCalls",
+          "verifiedAgendaIndexUrl": "",
+          "verifiedVoteSampleUrl": "https://www.mainelegislature.org/LawMakerWeb/rollcall.asp?ID=280095676&chamber=H&serialnumber=1"
         }
       },
       "knownOfficialSource": {
         "url": "https://legislature.maine.gov/",
-        "notes": "Official public pages and documents; chamber vote and agenda extraction still needs validation."
+        "notes": "House HTML roll-call index and member-level detail sample verified; member identity join, Senate votes, and agenda extraction still need validation."
       }
     },
     {
@@ -1417,7 +1418,8 @@
           ],
           "sampleOfficialProfile": "https://leg.wa.gov/legislators/member/derek-stanford",
           "verifiedVoteIndexUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx?op=GetRollCalls",
-          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings"
+          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings",
+          "verifiedVoteSampleUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx/GetRollCalls?biennium=2025-26&billNumber=1217"
         },
         "lower": {
           "voteFeed": "pilot",
@@ -1431,7 +1433,8 @@
           ],
           "sampleOfficialProfile": "https://housedemocrats.wa.gov/Duerr/",
           "verifiedVoteIndexUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx?op=GetRollCalls",
-          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings"
+          "verifiedAgendaIndexUrl": "https://wslwebservices.leg.wa.gov/committeemeetingservice.asmx?op=GetCommitteeMeetings",
+          "verifiedVoteSampleUrl": "https://wslwebservices.leg.wa.gov/legislationservice.asmx/GetRollCalls?biennium=2025-26&billNumber=1217"
         }
       },
       "knownOfficialSource": {

@@ -121,6 +121,13 @@ h1, h2, h3, p { margin-top: 0; }
 .vote-position { display: flex; justify-content: space-between; gap: 8px; margin: 10px 0; padding: 8px; border: 1px solid #42656b; border-radius: 4px; color: #dfebe5; background: #163740; font-size: 11px; }
 .vote-position strong { color: #f0d39a; text-align: right; }
 .vote-card > a { color: #b3d5ce; font-size: 11px; text-underline-offset: 2px; }
+.vote-intro a, .session-summary a, .empty-detail a { color: #d5e5ca; text-underline-offset: 2px; }
+.session-summary { margin: 4px 0 20px; padding: 13px; border: 1px solid #42656b; border-radius: 6px; background: #163740; }
+.session-summary .member-list-title { margin: 0 0 7px; }
+.session-summary p:not(.member-list-title) { margin: 7px 0 0; color: #c3d5cf; font-size: 11px; line-height: 1.45; }
+.session-summary strong { color: #f0d39a; }
+.agenda-history { margin: 18px 0; border-top: 1px solid #385963; color: #b3c8c6; }
+.agenda-history summary { padding: 12px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
 .election-panel { padding-top: 18px; }
 .election-candidates { margin-top: 15px; border-top: 1px solid #385963; }
 .election-candidate { display: flex; justify-content: space-between; gap: 10px; padding: 12px 0; border-bottom: 1px solid #385963; font-size: 12px; }

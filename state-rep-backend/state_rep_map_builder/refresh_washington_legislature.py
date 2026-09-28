@@ -1,7 +1,9 @@
-"""Build a bounded Washington legislative vote and committee agenda pilot.
+"""Build a bounded Washington vote pilot and current committee schedule.
 
 The bill sample comes from bills the legislature reports as passed in the
-specified date window. This is not a complete roll-call archive.
+specified date window. This is not a complete roll-call archive. Committee
+notices are fetched for a forward-looking window, with an older sample kept
+separately as history.
 """
 
 from __future__ import annotations
@@ -11,18 +13,30 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlencode
+from zoneinfo import ZoneInfo
 
 from .probe_federal_sources import fetch, utc_now, write_atomically
 
 
 ROOT = "https://wslwebservices.leg.wa.gov"
 NS = {"w": "http://WSLWebServices.leg.wa.gov/"}
+SESSION_HISTORY = "https://leg.wa.gov/media/zabdgzzy/history-of-session-dates_2026.pdf"
+SESSION_STATUS = "https://leg.wa.gov/bills-meetings-and-session/session/session-documents/latest-session-documents/"
+COMMITTEE_SCHEDULE = "https://app.leg.wa.gov/committeeschedules/"
 
 
 def field(node: ET.Element, name: str) -> str:
     return (node.findtext(f"w:{name}", default="", namespaces=NS) or "").strip()
+
+
+def chamber_from_agency(agency: str) -> str:
+    chamber = {"Senate": "upper", "House": "lower", "Joint": "joint", "Other": "other"}.get(agency)
+    if chamber is None:
+        raise ValueError(f"Unknown Washington committee agency: {agency!r}")
+    return chamber
 
 
 def request(service: str, operation: str, **params: str) -> tuple[ET.Element, dict]:
@@ -121,29 +135,78 @@ def committee_agendas(begin: str, end: str) -> tuple[list[dict], list[dict]]:
             items, item_source = future.result()
             resources.append(item_source)
             agency = field(node, "Agency")
+            chamber = chamber_from_agency(agency)
+            agenda_id = field(node, "AgendaId")
             committees = [field(item, "Name") for item in node.findall("./w:Committees/w:Committee", NS)]
-            rows.append({"id": field(node, "AgendaId"), "chamber": "upper" if agency == "Senate" else "lower",
+            rows.append({"id": agenda_id, "chamber": chamber,
                          "committee": ", ".join(name for name in committees if name),
                          "date": field(node, "Date"), "room": field(node, "Room"),
                          "status": "Cancelled" if field(node, "Cancelled") == "true" else "Scheduled",
                          "revisedAt": field(node, "RevisedDate") if not field(node, "RevisedDate").startswith("0001-") else "",
-                         "items": items, "sourceUrl": item_source["sourceURL"]})
+                         "items": items,
+                         "sourceUrl": f"https://app.leg.wa.gov/committeeschedules/Home/Agenda/{agenda_id}",
+                         "xmlUrl": item_source["sourceURL"]})
     return sorted(rows, key=lambda row: row["date"]), resources
+
+
+def next_regular_session(as_of: date) -> dict | None:
+    # Recheck session status before rolling forward to another session year.
+    # The legislature marks the 2027 date with a star: not yet official.
+    start = date(2027, 1, 11)
+    if start >= as_of:
+        return {"date": start.isoformat(), "status": "tentative", "sourceUrl": SESSION_HISTORY,
+                "sourceCheckedAt": "2026-09-27"}
+    return None
+
+
+def upcoming_agendas(as_of: date, lookahead_days: int) -> tuple[list[dict], list[dict], date]:
+    end = as_of + timedelta(days=lookahead_days)
+    meetings, sources = committee_agendas(as_of.isoformat(), end.isoformat())
+    if any(item["date"][:10] < as_of.isoformat() for item in meetings):
+        raise ValueError("Washington upcoming query returned a past meeting")
+    return meetings, sources, end
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--roster", type=Path, required=True)
+    parser.add_argument("--roster", type=Path, help="Current district roster; required for a full refresh")
     parser.add_argument("--biennium", default="2025-26")
     parser.add_argument("--bill-begin", default="2026-01-12")
     parser.add_argument("--bill-end", default="2026-03-31")
     parser.add_argument("--agenda-begin", default="2026-03-02")
     parser.add_argument("--agenda-end", default="2026-03-08")
+    parser.add_argument("--as-of", help="Washington local date (YYYY-MM-DD); defaults to today")
+    parser.add_argument("--agenda-lookahead-days", type=int, default=180)
     parser.add_argument("--bills-per-chamber", type=int, default=30)
+    parser.add_argument("--schedule-only", action="store_true", help="Refresh upcoming notices without reimporting votes")
     args = parser.parse_args()
-    if not 1 <= args.bills_per_chamber <= 100:
-        parser.error("bills-per-chamber must be between 1 and 100")
+    if not 1 <= args.bills_per_chamber <= 100 or not 1 <= args.agenda_lookahead_days <= 366:
+        parser.error("bills-per-chamber or agenda-lookahead-days is out of range")
+    as_of = date.fromisoformat(args.as_of) if args.as_of else datetime.now(ZoneInfo("America/Los_Angeles")).date()
+    if args.schedule_only:
+        if not args.output.is_file():
+            parser.error("--schedule-only requires an existing Washington snapshot at --output")
+        snapshot = json.loads(args.output.read_text())
+        if snapshot.get("state") != "WA" or not isinstance(snapshot.get("schedule"), dict):
+            parser.error("--output is not a Washington snapshot with a schedule")
+        upcoming_meetings, upcoming_sources, upcoming_end = upcoming_agendas(as_of, args.agenda_lookahead_days)
+        snapshot["schedule"].update({"asOfDate": as_of.isoformat(), "refreshedAt": utc_now(),
+                                     "nextRegularSession": next_regular_session(as_of),
+                                     "upcomingMeetings": upcoming_meetings})
+        snapshot["coverage"]["upcomingAgendaDateRange"] = [as_of.isoformat(), upcoming_end.isoformat()]
+        if isinstance(snapshot["agendaSources"], list):
+            historical_source_count = 1 + len(snapshot["schedule"]["historicalMeetings"])
+            snapshot["agendaSources"] = {"historical": snapshot["agendaSources"][:historical_source_count]}
+        snapshot["agendaSources"]["upcoming"] = upcoming_sources
+        write_atomically(args.output, snapshot, compact=True)
+        print(json.dumps({"output": str(args.output), "upcomingMeetings": len(upcoming_meetings),
+                          "votesPreserved": len(snapshot["rolls"])}, indent=2))
+        return
+    if args.roster is None:
+        parser.error("--roster is required for a full refresh")
+    if date.fromisoformat(args.agenda_end) >= as_of:
+        parser.error("the historical agenda window must end before the as-of date")
     crosswalk, crosswalk_info = member_crosswalk(args.roster, args.biennium)
     bills, bill_source = selected_bills(args.biennium, args.bill_begin, args.bill_end, args.bills_per_chamber)
     rolls = []
@@ -154,21 +217,31 @@ def main() -> None:
             bill_rows, source = future.result()
             rolls.extend(bill_rows)
             roll_sources.append(source)
-    meetings, meeting_sources = committee_agendas(args.agenda_begin, args.agenda_end)
+    historical_meetings, historical_sources = committee_agendas(args.agenda_begin, args.agenda_end)
+    upcoming_meetings, upcoming_sources, upcoming_end = upcoming_agendas(as_of, args.agenda_lookahead_days)
+    if any(item["date"][:10] >= as_of.isoformat() for item in historical_meetings):
+        raise ValueError("Washington historical query returned an upcoming meeting")
     snapshot = {"generatedAt": utc_now(), "state": "WA", "biennium": args.biennium,
                 "coverage": {"description": "Bounded official Washington pilot; not a complete vote archive",
                              "billSelection": "Highest-numbered House and Senate bills from the official passed-legislature query, up to the requested limit per chamber",
                              "billPassageDateRange": [args.bill_begin, args.bill_end],
-                             "agendaDateRange": [args.agenda_begin, args.agenda_end],
+                             "historicalAgendaDateRange": [args.agenda_begin, args.agenda_end],
+                             "upcomingAgendaDateRange": [as_of.isoformat(), upcoming_end.isoformat()],
                              "selectedBills": [bill for _, bill in bills]},
                 "memberCrosswalk": crosswalk, "crosswalkStatus": crosswalk_info,
                 "billSource": bill_source, "rollSources": sorted(roll_sources, key=lambda item: item["sourceURL"]),
-                "agendaSources": meeting_sources,
+                "agendaSources": {"historical": historical_sources, "upcoming": upcoming_sources},
                 "rolls": sorted(rolls, key=lambda row: (row["date"], row["sequence"]), reverse=True),
-                "meetings": meetings}
+                "schedule": {"asOfDate": as_of.isoformat(), "refreshedAt": utc_now(),
+                             "timeZone": "America/Los_Angeles",
+                             "regularSession": {"lastAdjournedAt": "2026-03-12", "sourceUrl": SESSION_STATUS},
+                             "nextRegularSession": next_regular_session(as_of),
+                             "committeeScheduleUrl": COMMITTEE_SCHEDULE,
+                             "upcomingMeetings": upcoming_meetings, "historicalMeetings": historical_meetings}}
     write_atomically(args.output, snapshot, compact=True)
     print(json.dumps({"output": str(args.output), "matchedMembers": len(crosswalk),
-                      "selectedBills": len(bills), "rolls": len(rolls), "meetings": len(meetings)}, indent=2))
+                      "selectedBills": len(bills), "rolls": len(rolls),
+                      "upcomingMeetings": len(upcoming_meetings), "historicalMeetings": len(historical_meetings)}, indent=2))
 
 
 if __name__ == "__main__":

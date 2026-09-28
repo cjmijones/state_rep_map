@@ -36,7 +36,9 @@ dated official House and Senate snapshots. Full current-session floor vote
 history loads only when the votes tab opens; the agenda tab shows published
 floor and committee notices.
 Washington state districts also have a clearly labeled sample of official
-2026 bill roll calls and committee agendas. The sample is not a full archive.
+2026 bill roll calls. Their Agenda tab shows upcoming House, Senate, and joint
+committee notices, a separate past-meeting sample, and the tentative next
+regular session date. The vote sample is not a full archive.
 An Elections tab now shows Washington's 2024 U.S. House general-election
 results for all ten districts, with an official source link. Other states and
 Senate election results are not yet populated.
@@ -115,6 +117,10 @@ python -m state_rep_map_builder.refresh_federal_agendas \
 python -m state_rep_map_builder.refresh_washington_legislature \
   --roster ../state-rep-map-visualizationo/public/data/WA.json \
   --output ../state-rep-map-visualizationo/public/data/wa-legislature-pilot.json
+# Refresh only upcoming Washington notices; preserves the vote snapshot.
+python -m state_rep_map_builder.refresh_washington_legislature \
+  --schedule-only \
+  --output ../state-rep-map-visualizationo/public/data/wa-legislature-pilot.json
 python -m state_rep_map_builder.build_state_source_inventory \
   --data-dir ../state-rep-map-visualizationo/public/data \
   --output ../docs/data/state-legislative-source-inventory.json
@@ -137,8 +143,14 @@ votes as needed; the separate full-session vote job reuses validated rolls,
 rechecks the five newest, retries transient errors, and resumes from a local
 checkpoint after interruption. The agenda job fetches current official feeds.
 The Washington job selects up to 30 passed bills per chamber in its declared
-date window, so its empty member result never means “did not vote.” Rebuild boundary tiles only when the current representation
-plan changes. This pipeline is pinned to the 119th Congress and must be
+date window, so its empty member result never means “did not vote.” It also
+queries the legislature's XML committee service from the Washington local
+date through the next 180 days. The March 2026 sample is stored separately
+as history. Its next regular session date comes from the legislature's
+published history of session dates and is labeled tentative.
+
+Rebuild boundary tiles only when the current representation plan changes.
+This pipeline is pinned to the 119th Congress and must be
 reviewed before changing its Congress/session defaults.
 The [50-state source inventory](docs/data/state-legislative-source-inventory.json)
 lists profile-domain leads for all 99 state chambers and marks feed coverage
